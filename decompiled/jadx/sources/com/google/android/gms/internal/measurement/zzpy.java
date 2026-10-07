@@ -1,0 +1,21 @@
+package com.google.android.gms.internal.measurement;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+public final class zzpy implements zzpx {
+    public static final zzib zza;
+    public static final zzib zzb;
+    public static final zzib zzc;
+
+    static {
+        zzhy zzhyVarZza = new zzhy(zzhq.zza("com.google.android.gms.measurement")).zza();
+        zza = zzhyVarZza.zzd("measurement.id.lifecycle.app_in_background_parameter", 0L);
+        zzb = zzhyVarZza.zzf("measurement.lifecycle.app_backgrounded_tracking", true);
+        zzc = zzhyVarZza.zzf("measurement.lifecycle.app_in_background_parameter", false);
+    }
+
+    @Override // com.google.android.gms.internal.measurement.zzpx
+    public final boolean zza() {
+        return ((Boolean) zzc.zzb()).booleanValue();
+    }
+}

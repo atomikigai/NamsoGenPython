@@ -1,0 +1,33 @@
+package androidx.webkit;
+
+import java.util.concurrent.Executor;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class a implements Executor {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ int f1222a;
+
+    public /* synthetic */ a(int i) {
+        this.f1222a = i;
+    }
+
+    @Override // java.util.concurrent.Executor
+    public final void execute(Runnable runnable) {
+        switch (this.f1222a) {
+            case 0:
+                WebStorageCompat.lambda$deleteBrowsingDataForSite$1(runnable);
+                break;
+            case 1:
+                WebStorageCompat.lambda$deleteBrowsingData$0(runnable);
+                break;
+            case 2:
+                m.a.V().f6959a.f6963b.execute(runnable);
+                break;
+            default:
+                runnable.run();
+                break;
+        }
+    }
+}

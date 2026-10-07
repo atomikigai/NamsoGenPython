@@ -1,0 +1,48 @@
+package com.google.android.gms.internal.measurement;
+
+import java.util.Collections;
+import java.util.List;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+public final class zzfe extends zzkx implements zzmj {
+    private zzfe() {
+        super(zzff.zza);
+    }
+
+    public final int zza() {
+        return ((zzff) this.zza).zzb();
+    }
+
+    public final zzfd zzb(int i) {
+        return ((zzff) this.zza).zzd(i);
+    }
+
+    public final zzfe zzc() {
+        zzaH();
+        ((zzff) this.zza).zzj = zzlb.zzbH();
+        return this;
+    }
+
+    public final zzfe zzd(int i, zzfc zzfcVar) {
+        zzaH();
+        zzff.zzq((zzff) this.zza, i, (zzfd) zzfcVar.zzaD());
+        return this;
+    }
+
+    public final String zze() {
+        return ((zzff) this.zza).zzk();
+    }
+
+    public final List zzf() {
+        return Collections.unmodifiableList(((zzff) this.zza).zzm());
+    }
+
+    public final List zzg() {
+        return Collections.unmodifiableList(((zzff) this.zza).zzn());
+    }
+
+    public /* synthetic */ zzfe(zzez zzezVar) {
+        super(zzff.zza);
+    }
+}

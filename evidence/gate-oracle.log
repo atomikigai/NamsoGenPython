@@ -1,0 +1,107 @@
+Oráculo JVM para gate_config y envejecimiento del checker
+========================================================
+
+Origen recuperado del APK
+-------------------------
+- decompiled/jadx/sources/jd/l.java: a(long): inicialización XorWow y 64 avances.
+- decompiled/jadx/sources/kc/d.java: nextInt(from, until) y nextLong(from, until).
+- decompiled/jadx/sources/kc/e.java: estado y transición XorWow.
+- decompiled/jadx/sources/h3/e1.java: i0(String), gateConfig: 1..10%, vida min 30 min..6 h,
+  vida max 6 h..48 h más min; y los límites gratis 30 min..24 h.
+- decompiled/jadx/sources/h3/j0.java: seed hash(card)*31+timestamp, comparación
+  estricta (now-timestamp > duración) y selección de límites por gate.
+- h3/e1.java inicializa el nombre gratis exacto como "GRATIS".
+
+Ejecución directa
+-----------------
+Compilado temporal, sin dependencias externas:
+  javac -d /tmp/gate-oracle-classes tools/GateOracle.java
+  java -cp /tmp/gate-oracle-classes GateOracle config HIPNOS Hipnos 'HIPNOS 1' 'Hipnos 1' GRATIS PREMIUM 'Árbol 😀' zzzzzzzzzzzzzzzzzzzzzz
+
+Resultados JVM para los nombres pedidos y casos de hash/Unicode:
+  HIPNOS             livePct=9 vidaMinMs=3571987  vidaMaxMs=53539969
+  Hipnos             livePct=7 vidaMinMs=11916617 vidaMaxMs=36273827
+  HIPNOS 1           livePct=7 vidaMinMs=8318206  vidaMaxMs=60390932
+  Hipnos 1           livePct=3 vidaMinMs=3176422  vidaMaxMs=144706473
+  GRATIS             livePct=10 vidaMinMs=8067048  vidaMaxMs=163481292
+  PREMIUM            livePct=6 vidaMinMs=11443380 vidaMaxMs=70565078
+  Árbol 😀            livePct=8 vidaMinMs=17850475 vidaMaxMs=99785852
+  zzzzzzzzzzzzzzzzzzzzzz livePct=1 vidaMinMs=12026542 vidaMaxMs=151043796
+
+Comparación ejecutada
+---------------------
+Se llamó al oráculo Java y a src/namso.py en el mismo proceso de verificación,
+comparando campos JSON. Resultado: 10/10 configuraciones coinciden, incluyendo
+nombre vacío/espacios (null), acentos, emoji y un hash Java negativo. También
+coincidieron 450/450 decisiones de envejecimiento usando 3 valores sintéticos
+de tarjeta, 5 variantes de gate y 10 edades/instantes por combinación, incluidos
+los límites de 30 min, 6 h, 24 h y 48 h. Ninguna llamada HTTP, cuenta, tarjeta
+real o servicio remoto participó.
+
+Ampliación: catálogo real observado y TTL de Hipnos
+--------------------------------------------------
+La evidencia de catálogo obtenida por el padre está en
+evidence/firebase-gates-live.json. Se cargaron literalmente sus 58 nombres y
+se comparó cada configuración producida por la JVM con la de Python. Resultado:
+58/58 coinciden exactamente; el catálogo contiene "Hipnos" con esa capitalización.
+Para el input sintético completo `4111111111111111|12|2027|123` y timestamp
+1760000000000, el oráculo calculó para Hipnos un TTL de 24585847 ms. La decisión
+coincidió en los tres puntos: TTL-1 ms -> viva; TTL exacto -> viva; TTL+1 ms ->
+muerta. Esto confirma la comparación estricta del APK y la importancia de
+sembrar con la línea completa. Sin cuenta ni red en esta comprobación.
+
+Discrepancias de borde halladas
+------------------------------
+1. `kc/e.java:a(int)` evalúa `b()` aunque `bits == 0`: en Java el operando
+   derecho de `&` se evalúa antes de aplicar la máscara. `src/namso.py:103`
+   retorna antes y no avanza el PRNG. Se reprodujo con seed 12345 y rango
+   `nextInt(0,1)`: el resultado del rango es 0 en ambos, pero el siguiente
+   word difiere (JVM -139740814; Python unsigned 3310479272). Los rangos de
+   las configuraciones y TTL actuales no piden cero bits, por eso no afecta
+   a las 58 configuraciones ni a la comparación Hipnos anterior; sí afecta a
+   secuencias generales que incluyan ese caso.
+2. `h3/j0.java` calcula `System.currentTimeMillis() - stored` como `long` con
+   overflow firmado. Python usa enteros sin límite en `src/namso.py:335`. Con
+   el mismo input sintético, `stored=-9223372036853775808` y
+   `now=9223372036854775807`, JVM devuelve viva (la resta Java se desborda a
+   un valor negativo), mientras Python devuelve muerta. Estos valores están
+   fuera del rango de timestamps Unix realistas y no cambian el caso 1760e12.
+
+Conclusión y límite
+------------------
+Para los 58 nombres observados en el catálogo, gate_config coincide con la JVM;
+el envejecimiento de Hipnos coincide también antes, en y después del TTL para
+el timestamp y la línea completos indicados. La discrepancia `next_bits(0)` no
+se alcanza con los rangos de esos caminos, mientras el overflow sólo aparece
+con timestamps extremos. Esto no demuestra que el resultado aleatorio LIVE de
+h3/e1.h0 coincida en ejecuciones reales ni valida respuestas del servidor.
+
+Resolución final tras corregir el port Python
+---------------------------------------------
+Se repitió la comparación después de actualizar src/namso.py. El hallazgo
+histórico de `next_bits(0)` quedó resuelto: JVM y Python consumen el mismo word
+con seed 12345 y rango [0,1]. El hallazgo histórico de overflow quedó resuelto:
+la resta Python ahora emula el `long` firmado Java, incluso para los extremos
+usados arriba. Se conservan ambas entradas históricas para dejar rastro del
+estado previo a la corrección.
+
+Validación final ejecutada directamente:
+- 58/58 gate_config del archivo evidence/firebase-gates-live.json coinciden
+  campo por campo entre JVM y Python.
+- 9/9 cadenas adicionales coinciden: vacía, espacios ASCII, NEL U+0085, NBSP
+  U+00A0, U+2007, U+202F, ideographic space U+3000, Unicode suplementario y
+  un nombre con hash negativo. U+0085 no se considera blank; NBSP sí, conforme
+  a Character.isWhitespace(char) || Character.isSpaceChar(char). GateOracle
+  usa explícitamente esos predicados de Java (no String.trim()).
+- Hipnos y la línea sintética completa `4111111111111111|12|2027|123`, con
+  stored=1760000000000: TTL=24585847 ms; ambos lados dicen viva para TTL-1 y
+  TTL exacto, y muerta para TTL+1.
+- `next_bits(0)`: estado JVM/Python vuelve a coincidir (el siguiente word de
+  JVM es -139740814; Python lo expone sin signo como 4155226482).
+- Resta con extremos de long: ambos lados devuelven viva tras overflow firmado.
+
+Se compiló tools/GateOracle.java en `/tmp/gate-oracle-classes` y se ejecutaron
+los comandos del oráculo desde terminal. No hubo llamadas de red, cuenta ni
+tarjetas reales. Esto verifica estas funciones deterministas frente a la
+implementación JVM del código recuperado, no la respuesta aleatoria/servidor
+de la ruta LIVE.

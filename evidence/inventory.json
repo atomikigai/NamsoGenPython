@@ -1,0 +1,558 @@
+{
+  "package": "app.namso_gen.spacehowen",
+  "version": "11.23",
+  "version_code": "125",
+  "inputs": [
+    {
+      "path": "artifacts/original.xapk",
+      "bytes": 15474625,
+      "sha256": "59ab6cb7c11ff75eb699058eb0c4d118f427266fa2f474da75bc34db3516850e"
+    },
+    {
+      "path": "artifacts/xapk/app.namso_gen.spacehowen.apk",
+      "bytes": 14435457,
+      "sha256": "92a531c666b7e808448c1e7d696bc1193d08937d75081a170791658caf26d6ce"
+    },
+    {
+      "path": "artifacts/xapk/config.ar.apk",
+      "bytes": 45465,
+      "sha256": "2fe6c0bc2f1ffb503eb2c3455543b8a30165127f8bf56b4fda6f6f9c412bf6a1"
+    },
+    {
+      "path": "artifacts/xapk/config.de.apk",
+      "bytes": 49561,
+      "sha256": "b0b464af62eb6a42ed4a40611e2a26f3a1b0c6d516592479df604e4e8eabb615"
+    },
+    {
+      "path": "artifacts/xapk/config.en.apk",
+      "bytes": 111001,
+      "sha256": "042005202703a7f7ebf3575d7a3363d035d18c48230c256c2d36249c15ad6bed"
+    },
+    {
+      "path": "artifacts/xapk/config.es.apk",
+      "bytes": 139673,
+      "sha256": "a33e6c55edf8565051119036f083b2b7d075673530e767a05cf5f23620f3b2c8"
+    },
+    {
+      "path": "artifacts/xapk/config.fr.apk",
+      "bytes": 53657,
+      "sha256": "c1c96f703419a48768111835cf6f5bb0ffec3673efc9532d2d1461455bf0bb33"
+    },
+    {
+      "path": "artifacts/xapk/config.hdpi.apk",
+      "bytes": 62663,
+      "sha256": "29a240861082a6bba9c88f05d07efbd6c2cc6c2de93c7b0897577261dd7f75ad"
+    },
+    {
+      "path": "artifacts/xapk/config.hi.apk",
+      "bytes": 49561,
+      "sha256": "6921e071cb528344e0cd2155df186b17d5946976d4f42cadb25d1c09f684f590"
+    },
+    {
+      "path": "artifacts/xapk/config.in.apk",
+      "bytes": 41369,
+      "sha256": "56091bd958f4ab25549395faf4b48832122b72e6ad15e65ef154b7a4fcbf583a"
+    },
+    {
+      "path": "artifacts/xapk/config.it.apk",
+      "bytes": 41369,
+      "sha256": "961bdaf880e044027a2709d5665379de181d213171a0fd669b9cd6a69eca6cc8"
+    },
+    {
+      "path": "artifacts/xapk/config.ja.apk",
+      "bytes": 45465,
+      "sha256": "98dcad232c91314cc43c2f0f2daa2a0bb97945937f68505fee9289ce70c99cab"
+    },
+    {
+      "path": "artifacts/xapk/config.ko.apk",
+      "bytes": 41369,
+      "sha256": "fa250f7362684b7aaabead3ba6e865f7fa3c330eb306da4c562f14e7978a4900"
+    },
+    {
+      "path": "artifacts/xapk/config.my.apk",
+      "bytes": 37273,
+      "sha256": "db666626352c1c16c8f0a200f786330378ae081f1e9a9efe70cff1f8833adf45"
+    },
+    {
+      "path": "artifacts/xapk/config.pt.apk",
+      "bytes": 57753,
+      "sha256": "7af865f891826ca8c555bdc035fbe328832ee950ca6e4844f2de6fc75d2c0a33"
+    },
+    {
+      "path": "artifacts/xapk/config.ru.apk",
+      "bytes": 45465,
+      "sha256": "45706e56b157e95548a6a1a9a5260cb1aa3dd26b1c79741fb331d7f78cda4915"
+    },
+    {
+      "path": "artifacts/xapk/config.th.apk",
+      "bytes": 49561,
+      "sha256": "2584c99914f16ece83432b02a71d8470cf8712fdd614c05ded25b6df988efefa"
+    },
+    {
+      "path": "artifacts/xapk/config.tr.apk",
+      "bytes": 41369,
+      "sha256": "91f6930aec4e4cfc3e8613b2f2d1d135ce07dafc36e4f67f1e2e565f000b67af"
+    },
+    {
+      "path": "artifacts/xapk/config.vi.apk",
+      "bytes": 45465,
+      "sha256": "8cf066d9df37548b741f1b340b36c6e2b9c08f85edbab28ef4a4e4ef6df93ac6"
+    },
+    {
+      "path": "artifacts/xapk/config.zh.apk",
+      "bytes": 65945,
+      "sha256": "db1b81db51492c987af41dda49e69f52c6305783f5c4a2ea4aed18dec79ed0ef"
+    },
+    {
+      "path": "artifacts/apk/classes.dex",
+      "bytes": 8629864,
+      "sha256": "4ab3eb892fb05ca83715c5b008ef09cbc3a0ed5d6ae3a11a3c16ae8e5f22319d"
+    },
+    {
+      "path": "artifacts/apk/classes2.dex",
+      "bytes": 172152,
+      "sha256": "dd1c0b738737630846d167dfa37ad88ef3249074cd6240751e22929e2e92adaf"
+    },
+    {
+      "path": "artifacts/apk/classes3.dex",
+      "bytes": 1198848,
+      "sha256": "8b8695e0b75d7fbc4bd6d828ff5d93ac9a0d936bca4d4b1708a8d9b47bce3a32"
+    }
+  ],
+  "java_files": 11727,
+  "native_libraries": [],
+  "permissions": [
+    "android.permission.INTERNET",
+    "android.permission.AD_ID",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.ACCESS_NETWORK_STATE",
+    "com.google.android.gms.permission.AD_ID",
+    "android.permission.ACCESS_ADSERVICES_AD_ID",
+    "android.permission.ACCESS_ADSERVICES_ATTRIBUTION",
+    "android.permission.ACCESS_ADSERVICES_TOPICS",
+    "android.permission.WAKE_LOCK",
+    "com.google.android.c2dm.permission.RECEIVE",
+    "com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE",
+    "com.android.vending.BILLING",
+    "com.google.android.providers.gsf.permission.READ_GSERVICES",
+    "android.permission.FOREGROUND_SERVICE",
+    "app.namso_gen.spacehowen.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+    "com.android.vending.CHECK_LICENSE"
+  ],
+  "application": {
+    "{http://schemas.android.com/apk/res/android}theme": "@style/Theme.NamsoGen",
+    "{http://schemas.android.com/apk/res/android}label": "@string/app_name",
+    "{http://schemas.android.com/apk/res/android}icon": "@mipmap/ic_launcher",
+    "{http://schemas.android.com/apk/res/android}name": "com.pairip.application.Application",
+    "{http://schemas.android.com/apk/res/android}allowBackup": "true",
+    "{http://schemas.android.com/apk/res/android}supportsRtl": "true",
+    "{http://schemas.android.com/apk/res/android}extractNativeLibs": "false",
+    "{http://schemas.android.com/apk/res/android}fullBackupContent": "@xml/backup_rules",
+    "{http://schemas.android.com/apk/res/android}usesCleartextTraffic": "true",
+    "{http://schemas.android.com/apk/res/android}roundIcon": "@mipmap/ic_launcher_round",
+    "{http://schemas.android.com/apk/res/android}appComponentFactory": "androidx.core.app.CoreComponentFactory",
+    "{http://schemas.android.com/apk/res/android}dataExtractionRules": "@xml/data_extraction_rules"
+  },
+  "jadx_unrecovered_methods": [
+    {
+      "source": "decompiled/jadx/sources/a2/e.java",
+      "line": 137,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: a2.e.invokeSuspend(java.lang.Object):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/a2/g.java",
+      "line": 242,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: a2.g.invokeSuspend(java.lang.Object):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/a2/x.java",
+      "line": 96,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: a2.x.invokeSuspend(java.lang.Object):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/a7/c.java",
+      "line": 71,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: a7.c.equals(java.lang.Object):boolean\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/androidx/coordinatorlayout/widget/CoordinatorLayout.java",
+      "line": 1468,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: androidx.coordinatorlayout.widget.CoordinatorLayout.s():void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/androidx/emoji2/text/l.java",
+      "line": 196,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: androidx.emoji2.text.l.e(java.lang.CharSequence, int, int):java.lang.CharSequence\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/androidx/recyclerview/widget/GridLayoutManager.java",
+      "line": 137,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: androidx.recyclerview.widget.GridLayoutManager.R(android.view.View, int, x1.n0, x1.s0):android.view.View\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/androidx/recyclerview/widget/RecyclerView.java",
+      "line": 2179,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: androidx.recyclerview.widget.RecyclerView.onTouchEvent(android.view.MotionEvent):boolean\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/b9/m.java",
+      "line": 1440,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: b9.m.a(b9.k, float, android.graphics.RectF, e7.i, android.graphics.Path):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/common/api/internal/h.java",
+      "line": 289,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.common.api.internal.h.handleMessage(android.os.Message):boolean\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzaai.java",
+      "line": 246,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzaai.zzaU(java.lang.String):boolean\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzaai.java",
+      "line": 332,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzaai.zzad(com.google.android.gms.internal.ads.zzsq, com.google.android.gms.internal.ads.zzad):int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzaap.java",
+      "line": 51,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzaap.zza(long, long, long, long, boolean, com.google.android.gms.internal.ads.zzaan):int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzabo.java",
+      "line": 27,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzabo.zzb(com.google.android.gms.internal.ads.zzec, boolean):com.google.android.gms.internal.ads.zzabm\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzain.java",
+      "line": 1890,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzain.zzf(com.google.android.gms.internal.ads.zzes, com.google.android.gms.internal.ads.zzadf, long, com.google.android.gms.internal.ads.zzw, boolean, boolean, com.google.android.gms.internal.ads.zzfwh):java.util.List\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzaly.java",
+      "line": 375,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzaly.zzh(java.lang.String, com.google.android.gms.internal.ads.zzalw):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzanh.java",
+      "line": 54,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzanh.zza(com.google.android.gms.internal.ads.zzacs, long):com.google.android.gms.internal.ads.zzaca\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzaoe.java",
+      "line": 104,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzaoe.zzc(com.google.android.gms.internal.ads.zzacs, long):boolean\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzazl.java",
+      "line": 72,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzazl.run():void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbds.java",
+      "line": 137,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzbds.zzj():void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbkd.java",
+      "line": 412,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzbkd.zzl(e6.a, android.content.Context, java.lang.String, java.lang.String):boolean\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbrs.java",
+      "line": 239,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzbrs.zzh(q7.a, java.lang.String, android.os.Bundle, android.os.Bundle, e6.q3, com.google.android.gms.internal.ads.zzbri):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzdd.java",
+      "line": 116,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzdd.zza(com.google.android.gms.internal.ads.zzad):android.util.Pair\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzeuj.java",
+      "line": 105,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzeuj.zzc():com.google.android.gms.internal.ads.zzeuk\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzewt.java",
+      "line": 50,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzewt.zzb():m9.a\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzfeq.java",
+      "line": 146,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzfeq.zzg(com.google.android.gms.internal.ads.zzbwq):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzft.java",
+      "line": 95,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzft.zzb(long, com.google.android.gms.internal.ads.zzed):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzgxt.java",
+      "line": 216,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzgxt.zzi():int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzhal.java",
+      "line": 2095,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzhal.zzc(java.lang.Object, byte[], int, int, int, com.google.android.gms.internal.ads.zzgxd):int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzhbx.java",
+      "line": 28,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzhbx.zza(int, byte[], int, int):int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzkh.java",
+      "line": 1281,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzkh.zzab():void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzsy.java",
+      "line": 327,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzsy.zzF(com.google.android.gms.internal.ads.zzad[], long, long, com.google.android.gms.internal.ads.zzur):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzyv.java",
+      "line": 749,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.ads.zzyv.zzn(java.lang.String):int[]\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/auth/zzeu.java",
+      "line": 86,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.auth.zzeu.zzb(com.google.android.gms.internal.auth.zzeu, byte[]):com.google.android.gms.internal.auth.zzeu\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/auth/zzfz.java",
+      "line": 2183,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.auth.zzfz.zzb(java.lang.Object, byte[], int, int, int, com.google.android.gms.internal.auth.zzds):int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/measurement/zzbz.java",
+      "line": 43,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.measurement.zzbz.zzf(android.os.Bundle, java.lang.Class):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/measurement/zzkx.java",
+      "line": 100,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.measurement.zzkx.zzaD():com.google.android.gms.internal.measurement.zzlb\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/measurement/zzml.java",
+      "line": 2645,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.measurement.zzml.zzc(java.lang.Object, byte[], int, int, int, com.google.android.gms.internal.measurement.zzjn):int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/p002firebaseauthapi/zzals.java",
+      "line": 2046,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.p002firebaseauthapi.zzals.zzc(java.lang.Object, byte[], int, int, int, com.google.android.gms.internal.firebase-auth-api.zzais):int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/internal/play_billing/zzgo.java",
+      "line": 2060,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.internal.play_billing.zzgo.zzc(java.lang.Object, byte[], int, int, int, com.google.android.gms.internal.play_billing.zzdw):int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/gms/measurement/internal/AppMeasurementDynamiteService.java",
+      "line": 511,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.gms.measurement.internal.AppMeasurementDynamiteService.setCurrentScreen(q7.a, java.lang.String, java.lang.String, long):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/material/bottomsheet/BottomSheetBehavior.java",
+      "line": 363,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.material.bottomsheet.BottomSheetBehavior.E(android.view.View, boolean, int):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/material/sidesheet/SideSheetBehavior.java",
+      "line": 429,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.material.sidesheet.SideSheetBehavior.t(android.view.View, boolean, int):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzbf.java",
+      "line": 115,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.recaptcha.internal.zzbf.zzb(android.content.Context):com.google.android.recaptcha.internal.zzmo\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzbz.java",
+      "line": 101,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.recaptcha.internal.zzbz.invokeSuspend(java.lang.Object):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzij.java",
+      "line": 394,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.recaptcha.internal.zzij.zzi(com.google.android.recaptcha.internal.zzii, java.lang.Object):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzkh.java",
+      "line": 2050,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: com.google.android.recaptcha.internal.zzkh.zzc(java.lang.Object, byte[], int, int, int, com.google.android.recaptcha.internal.zzgj):int\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/d4/o.java",
+      "line": 163,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: d4.o.c(a2.l, android.graphics.BitmapFactory$Options, d4.n, x3.a):android.graphics.Bitmap\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/g/u.java",
+      "line": 552,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: g.u.I(g.t, android.view.KeyEvent):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/g/u.java",
+      "line": 866,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: g.u.j(k.l):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/g6/o.java",
+      "line": 30,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: g6.o.<init>(android.content.Context, g6.n, g6.i):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/gb/x.java",
+      "line": 154,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: gb.x.g():boolean\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/h1/g.java",
+      "line": 475,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: h1.g.e(h1.b, int, int):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/h3/e1.java",
+      "line": 320,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: h3.e1.c0(h3.e1, ac.c):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/h3/s.java",
+      "line": 105,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: h3.s.invokeSuspend(java.lang.Object):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/h3/y0.java",
+      "line": 145,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: h3.y0.invokeSuspend(java.lang.Object):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/h4/a.java",
+      "line": 130,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: h4.a.a(java.lang.Object, int, int, u3.i):w3.x\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/hd/c.java",
+      "line": 70,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: hd.c.t(long, od.f):long\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/j$/time/format/e.java",
+      "line": 113,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: j$.time.format.e.u(j$.time.format.p, java.lang.StringBuilder):boolean\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/j$/time/zone/f.java",
+      "line": 209,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: j$.time.zone.f.e(j$.time.LocalDateTime):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/m2/h.java",
+      "line": 148,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: m2.h.j(android.view.ViewGroup, m2.s, m2.s):android.animation.Animator\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/mb/c.java",
+      "line": 45,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: mb.c.b(ac.c):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/n3/i.java",
+      "line": 453,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: n3.i.d(bd.s):bb.b\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/o3/b.java",
+      "line": 864,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: o3.b.w(android.app.Activity, com.bumptech.glide.manager.q):o3.e\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/o3/q.java",
+      "line": 71,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: o3.q.call():java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/rc/k1.java",
+      "line": 120,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: rc.k1.invokeSuspend(java.lang.Object):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/rc/x.java",
+      "line": 66,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: rc.x.E(yb.h):yb.i\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/u0/g.java",
+      "line": 279,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: u0.g.onTouch(android.view.View, android.view.MotionEvent):boolean\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/uc/i.java",
+      "line": 54,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: uc.i.d(uc.c, yb.d):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/uc/j.java",
+      "line": 157,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: uc.j.a(uc.c, tc.p, boolean, ac.c):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/w3/k.java",
+      "line": 238,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: w3.k.b(w3.p, boolean, long):w3.r\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/y1/e0.java",
+      "line": 60,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: y1.e0.c(int[], yb.d):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/y1/k0.java",
+      "line": 145,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: y1.k0.invokeSuspend(java.lang.Object):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/y1/l0.java",
+      "line": 255,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: y1.l0.c(y1.l0, y1.b0, int, ac.c):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/y1/l0.java",
+      "line": 354,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: y1.l0.d(y1.l0, y1.b0, int, ac.c):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/y9/j.java",
+      "line": 210,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: y9.j.a():void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/z0/e.java",
+      "line": 150,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: z0.e.invokeSuspend(java.lang.Object):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/z0/y.java",
+      "line": 96,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: z0.y.b(z0.y, z0.j, ac.c):java.lang.Object\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/z7/x1.java",
+      "line": 184,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: z7.x1.j(java.lang.String, java.lang.String, android.os.Bundle, boolean, boolean, long):void\");"
+    },
+    {
+      "source": "decompiled/jadx/sources/z7/x1.java",
+      "line": 947,
+      "message": "throw new UnsupportedOperationException(\"Method not decompiled: z7.x1.p(z7.j1, long):void\");"
+    }
+  ]
+}

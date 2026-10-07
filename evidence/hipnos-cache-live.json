@@ -1,0 +1,16 @@
+{
+  "mode": "live-read-only",
+  "gate": "Hipnos",
+  "input": "synthetic all-zero PAN",
+  "operation": "checker-get",
+  "writes": false,
+  "response": {
+    "status": null,
+    "t": null
+  },
+  "returned_keys": [
+    "status",
+    "t"
+  ],
+  "transport": "JSON received"
+}

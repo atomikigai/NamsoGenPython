@@ -1,0 +1,85 @@
+package com.google.android.gms.internal.measurement;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+public class zzlo {
+    private static final zzkn zzb = zzkn.zza;
+    protected volatile zzmi zza;
+    private volatile zzka zzc;
+
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof zzlo)) {
+            return false;
+        }
+        zzlo zzloVar = (zzlo) obj;
+        zzmi zzmiVar = this.zza;
+        zzmi zzmiVar2 = zzloVar.zza;
+        if (zzmiVar == null && zzmiVar2 == null) {
+            return zzb().equals(zzloVar.zzb());
+        }
+        if (zzmiVar != null && zzmiVar2 != null) {
+            return zzmiVar.equals(zzmiVar2);
+        }
+        if (zzmiVar != null) {
+            zzloVar.zzc(zzmiVar.zzbV());
+            return zzmiVar.equals(zzloVar.zza);
+        }
+        zzc(zzmiVar2.zzbV());
+        return this.zza.equals(zzmiVar2);
+    }
+
+    public int hashCode() {
+        return 1;
+    }
+
+    public final int zza() {
+        if (this.zzc != null) {
+            return ((zzjx) this.zzc).zza.length;
+        }
+        if (this.zza != null) {
+            return this.zza.zzbz();
+        }
+        return 0;
+    }
+
+    public final zzka zzb() {
+        if (this.zzc != null) {
+            return this.zzc;
+        }
+        synchronized (this) {
+            try {
+                if (this.zzc != null) {
+                    return this.zzc;
+                }
+                if (this.zza == null) {
+                    this.zzc = zzka.zzb;
+                } else {
+                    this.zzc = this.zza.zzbv();
+                }
+                return this.zzc;
+            } catch (Throwable th) {
+                throw th;
+            }
+        }
+    }
+
+    public final void zzc(zzmi zzmiVar) {
+        if (this.zza != null) {
+            return;
+        }
+        synchronized (this) {
+            if (this.zza == null) {
+                try {
+                    this.zza = zzmiVar;
+                    this.zzc = zzka.zzb;
+                } catch (zzll unused) {
+                    this.zza = zzmiVar;
+                    this.zzc = zzka.zzb;
+                }
+            }
+        }
+    }
+}

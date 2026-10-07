@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.ads;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+final class zzbaq implements zzazf {
+    final /* synthetic */ zzbat zza;
+
+    public zzbaq(zzbat zzbatVar) {
+        this.zza = zzbatVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzazf
+    public final void zza(boolean z4) {
+        if (z4) {
+            this.zza.zzl();
+        } else {
+            zzbat.zzh(this.zza);
+        }
+    }
+}

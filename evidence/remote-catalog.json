@@ -1,0 +1,300 @@
+[
+  {
+    "name": "ip-fraud",
+    "method": "GET",
+    "url": "https://api11.scamalytics.com/{user_id}/",
+    "required": [
+      "ip"
+    ],
+    "write": false,
+    "credential_env": [
+      "NAMSO_SCAMALYTICS_USER_ID",
+      "NAMSO_SCAMALYTICS_API_KEY"
+    ],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "proxy-free-geonode",
+    "method": "GET",
+    "url": "https://proxylist.geonode.com/api/proxy-list",
+    "required": [
+      "country"
+    ],
+    "write": false,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "proxy-free-proxyscrape",
+    "method": "GET",
+    "url": "https://api.proxyscrape.com/v2/",
+    "required": [
+      "country"
+    ],
+    "write": false,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "url-shorten",
+    "method": "POST",
+    "url": "https://link.spacehowen.com/api/shorten",
+    "required": [
+      "url"
+    ],
+    "write": true,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "mail-messages",
+    "method": "GET",
+    "url": "https://api.catchmail.io/api/v1/mailbox",
+    "required": [
+      "address"
+    ],
+    "write": false,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "mail-read",
+    "method": "GET",
+    "url": "https://api.catchmail.io/api/v1/message/{message_id}",
+    "required": [
+      "message_id",
+      "address"
+    ],
+    "write": false,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "bin-lookup",
+    "method": "GET",
+    "url": "https://bins.antipublic.cc/bins/{bin}",
+    "required": [
+      "bin"
+    ],
+    "write": false,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "bin-search",
+    "method": "GET",
+    "url": "https://api.spacehowen.com/bins-extras/search_bin.php",
+    "required": [
+      "bin"
+    ],
+    "write": false,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "bin-save",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/bins-extras/save_bin.php",
+    "required": [
+      "bin_base",
+      "month",
+      "year"
+    ],
+    "write": true,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "world-data",
+    "method": "GET",
+    "url": "https://raw.githubusercontent.com/spacehowen/world-data-json/refs/heads/main/world_data.json",
+    "required": [],
+    "write": false,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "coins-balance",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/users-coins/coins.php",
+    "required": [],
+    "write": false,
+    "credential_env": [
+      "NAMSO_ID_TOKEN"
+    ],
+    "optional_credential_env": [
+      "NAMSO_CLIENT_KEY"
+    ],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "coins-credit",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/users-coins/coins.php",
+    "required": [
+      "sku",
+      "quantity"
+    ],
+    "write": true,
+    "credential_env": [
+      "NAMSO_ID_TOKEN",
+      "NAMSO_PURCHASE_TOKEN"
+    ],
+    "optional_credential_env": [
+      "NAMSO_CLIENT_KEY"
+    ],
+    "description": "Contrato recuperado del APK; pagos sólo fixture."
+  },
+  {
+    "name": "coins-spend",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/users-coins/coins.php",
+    "required": [
+      "amount"
+    ],
+    "write": true,
+    "credential_env": [
+      "NAMSO_ID_TOKEN"
+    ],
+    "optional_credential_env": [
+      "NAMSO_CLIENT_KEY"
+    ],
+    "description": "Contrato recuperado del APK; pagos sólo fixture."
+  },
+  {
+    "name": "subscription-verify",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/verify/verify.php",
+    "required": [
+      "sku"
+    ],
+    "write": false,
+    "credential_env": [
+      "NAMSO_PURCHASE_TOKEN"
+    ],
+    "optional_credential_env": [
+      "NAMSO_CLIENT_KEY"
+    ],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "proxy-countries",
+    "method": "GET",
+    "url": "https://api.spacehowen.com/users-proxys/countries.php",
+    "required": [],
+    "write": false,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "proxy-get",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/users-proxys/get_proxy.php",
+    "required": [
+      "country"
+    ],
+    "write": true,
+    "credential_env": [
+      "NAMSO_ID_TOKEN"
+    ],
+    "optional_credential_env": [
+      "NAMSO_CLIENT_KEY"
+    ],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "proxy-quota",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/users-proxys/get_proxy.php",
+    "required": [],
+    "write": false,
+    "credential_env": [
+      "NAMSO_ID_TOKEN"
+    ],
+    "optional_credential_env": [
+      "NAMSO_CLIENT_KEY"
+    ],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "proxy-buy",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/users-proxys/buy.php",
+    "required": [],
+    "write": true,
+    "credential_env": [
+      "NAMSO_ID_TOKEN",
+      "NAMSO_PURCHASE_TOKEN"
+    ],
+    "optional_credential_env": [
+      "NAMSO_CLIENT_KEY"
+    ],
+    "description": "Contrato recuperado del APK; pagos sólo fixture."
+  },
+  {
+    "name": "fcm-register",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/fcm/tokens.php",
+    "required": [
+      "action"
+    ],
+    "write": true,
+    "credential_env": [
+      "NAMSO_FCM_TOKEN"
+    ],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "fcm-track",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/fcm/track.php",
+    "required": [
+      "mid"
+    ],
+    "write": true,
+    "credential_env": [
+      "NAMSO_DEVICE_ID"
+    ],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "checker-get",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/cards-checker/get_status.php",
+    "required": [
+      "gate",
+      "card"
+    ],
+    "write": false,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  },
+  {
+    "name": "checker-save",
+    "method": "POST",
+    "url": "https://api.spacehowen.com/cards-checker/save_status.php",
+    "required": [
+      "gate",
+      "card",
+      "status"
+    ],
+    "write": true,
+    "credential_env": [],
+    "optional_credential_env": [],
+    "description": "Contrato recuperado del APK."
+  }
+]

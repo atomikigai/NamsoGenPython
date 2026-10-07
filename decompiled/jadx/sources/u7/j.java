@@ -1,0 +1,74 @@
+package u7;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import com.google.android.gms.internal.fido.zzaj;
+import com.google.android.gms.internal.fido.zzak;
+import com.google.android.gms.internal.fido.zzbf;
+import java.util.Arrays;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+public final class j extends l {
+    public static final Parcelable.Creator<j> CREATOR = new v0(9);
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final byte[] f8917a;
+
+    /* JADX INFO: renamed from: b, reason: collision with root package name */
+    public final byte[] f8918b;
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final byte[] f8919c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public final String[] f8920d;
+
+    public j(byte[] bArr, byte[] bArr2, byte[] bArr3, String[] strArr) {
+        com.google.android.gms.common.internal.i0.i(bArr);
+        this.f8917a = bArr;
+        com.google.android.gms.common.internal.i0.i(bArr2);
+        this.f8918b = bArr2;
+        com.google.android.gms.common.internal.i0.i(bArr3);
+        this.f8919c = bArr3;
+        com.google.android.gms.common.internal.i0.i(strArr);
+        this.f8920d = strArr;
+    }
+
+    public final boolean equals(Object obj) {
+        if (!(obj instanceof j)) {
+            return false;
+        }
+        j jVar = (j) obj;
+        return Arrays.equals(this.f8917a, jVar.f8917a) && Arrays.equals(this.f8918b, jVar.f8918b) && Arrays.equals(this.f8919c, jVar.f8919c);
+    }
+
+    public final int hashCode() {
+        return Arrays.hashCode(new Object[]{Integer.valueOf(Arrays.hashCode(this.f8917a)), Integer.valueOf(Arrays.hashCode(this.f8918b)), Integer.valueOf(Arrays.hashCode(this.f8919c))});
+    }
+
+    public final String toString() {
+        zzaj zzajVarZza = zzak.zza(this);
+        zzbf zzbfVarZzd = zzbf.zzd();
+        byte[] bArr = this.f8917a;
+        zzajVarZza.zzb("keyHandle", zzbfVarZzd.zze(bArr, 0, bArr.length));
+        zzbf zzbfVarZzd2 = zzbf.zzd();
+        byte[] bArr2 = this.f8918b;
+        zzajVarZza.zzb("clientDataJSON", zzbfVarZzd2.zze(bArr2, 0, bArr2.length));
+        zzbf zzbfVarZzd3 = zzbf.zzd();
+        byte[] bArr3 = this.f8919c;
+        zzajVarZza.zzb("attestationObject", zzbfVarZzd3.zze(bArr3, 0, bArr3.length));
+        zzajVarZza.zzb("transports", Arrays.toString(this.f8920d));
+        return zzajVarZza.toString();
+    }
+
+    @Override // android.os.Parcelable
+    public final void writeToParcel(Parcel parcel, int i) {
+        int iP = com.bumptech.glide.d.P(20293, parcel);
+        com.bumptech.glide.d.D(parcel, 2, this.f8917a, false);
+        com.bumptech.glide.d.D(parcel, 3, this.f8918b, false);
+        com.bumptech.glide.d.D(parcel, 4, this.f8919c, false);
+        com.bumptech.glide.d.L(parcel, 5, this.f8920d, false);
+        com.bumptech.glide.d.Q(iP, parcel);
+    }
+}

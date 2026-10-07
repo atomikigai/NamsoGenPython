@@ -1,0 +1,281 @@
+Radare2 capture: h3/e1.h0
+Tool: radare2 6.2.2 +37863 abi:142 @ linux-x86_64
+Input: artifacts/apk/classes.dex
+SHA-256: 4ab3eb892fb05ca83715c5b008ef09cbc3a0ed5d6ae3a11a3c16ae8e5f22319d
+Command: r2 -q -c "af @ 0x00543658; pdf @ 0x00543658; q" artifacts/apk/classes.dex
+
+            ;-- Lh3/e1.method.h0(Ljava/lang/String;ZZLjava/lang/Integer;)Ljava/lang/String;:
+┌ 1002: method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ (int v14, int v15, int v16, int v17);
+│ `- args(v14, v15, v16, v17)
+│           0x00543658      711041ec0e00   invoke-static {v14}, Lpc/g.B0(Ljava/lang/CharSequence;)Ljava/lang/CharSequence; ; 0xec41 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:1
+│           0x0054365e      0c0e           move-result-object v14      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:7
+│           0x00543660      6e10bfd90e00   invoke-virtual {v14}, Ljava/lang/Object.toString()Ljava/lang/String; ; 0xd9bf ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:9
+│           0x00543666      0c0e           move-result-object v14      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:15
+│           0x00543668      1a001ba1       const-string v0, 0x798113   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:17
+│           0x0054366c      2410e7360000   filled-new-array {v0}, [Ljava/lang/String; ; 0x36e7 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:21 ; 0x36100
+│           0x00543672      0c00           move-result-object v0       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:27
+│           0x00543674      71204dec0e00   invoke-static {v14, v0}, Lpc/g.w0(Ljava/lang/String;[Ljava/lang/String;)Ljava/util/List; ; 0xec4d ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:29
+│           0x0054367a      0c0e           move-result-object v14      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:35
+│           0x0054367c      72100add0e00   invoke-interface {v14}, Ljava/util/List.size()I ; 0xdd0a ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:37
+│           0x00543682      0a00           move-result v0              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:43
+│           0x00543684      1241           const/4 v1, 4               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:45
+│       ┌─< 0x00543686      32100400       if-eq v0, v1, 0x0054368e    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:47
+│      ┌──< 0x0054368a      2900bb01       goto/16 0x00543a00          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:51
+│      │└─> 0x0054368e      1200           const/4 v0, 0               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:55
+│      │    0x00543690      7220fedc0e00   invoke-interface {v14, v0}, Ljava/util/List.get(I)Ljava/lang/Object; ; 0xdcfe ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:57
+│      │    0x00543696      0c02           move-result-object v2       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:63
+│      │    0x00543698      1f02612c       check-cast v2, Ljava/lang/String; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:65 ; 0x336e8
+│      │    0x0054369c      1213           const/4 v3, 1               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:69
+│      │    0x0054369e      7220fedc3e00   invoke-interface {v14, v3}, Ljava/util/List.get(I)Ljava/lang/Object; ; 0xdcfe ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:71
+│      │    0x005436a4      0c04           move-result-object v4       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:77
+│      │    0x005436a6      1f04612c       check-cast v4, Ljava/lang/String; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:79 ; 0x336e8
+│      │    0x005436aa      1225           const/4 v5, 2               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:83
+│      │    0x005436ac      7220fedc5e00   invoke-interface {v14, v5}, Ljava/util/List.get(I)Ljava/lang/Object; ; 0xdcfe ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:85
+│      │    0x005436b2      0c0e           move-result-object v14      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:91
+│      │    0x005436b4      1f0e612c       check-cast v14, Ljava/lang/String; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:93 ; 0x336e8
+│      │    0x005436b8      2206632c       new-instance v6, Ljava/lang/StringBuilder; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:97 ; 0x336f0
+│      │    0x005436bc      701019da0600   invoke-direct {v6}, Ljava/lang/StringBuilder.<init>()V ; 0xda19 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:101
+│      │    0x005436c2      6e10fbd90200   invoke-virtual {v2}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:107
+│      │    0x005436c8      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:113
+│      │    0x005436ca      0108           move v8, v0                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:115
+│      │    ; CODE XREF from method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ @ 0x5436ee(x)
+│     ┌─┌─> 0x005436cc      35781200       if-ge v8, v7, 0x005436f0    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:117
+│     ││╎   0x005436d0      6e20e1d98200   invoke-virtual {v2, v8}, Ljava/lang/String.charAt(I)C ; 0xd9e1 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:121
+│     ││╎   0x005436d6      0a09           move-result v9              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:127
+│     ││╎   0x005436d8      7110edd80900   invoke-static {v9}, Ljava/lang/Character.isDigit(C)Z ; 0xd8ed ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:129
+│     ││╎   0x005436de      0a0a           move-result v10             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:135
+│    ┌────< 0x005436e0      380a0500       if-eqz v10, 0x005436ea      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:137
+│    │││╎   0x005436e4      6e201cda9600   invoke-virtual {v6, v9}, Ljava/lang/StringBuilder.append(C)Ljava/lang/Appendable; ; 0xda1c ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:141
+│    └────> 0x005436ea      d8080801       add-int/lit8 v8, v8, 0x1    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:147
+│     ││└─< 0x005436ee      28ef           goto 0x005436cc             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:151
+│     └───> 0x005436f0      6e1034da0600   invoke-virtual {v6}, Ljava/lang/StringBuilder.toString()Ljava/lang/String; ; 0xda34 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:153
+│      │    0x005436f6      0c06           move-result-object v6       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:159
+│      │    0x005436f8      6e10fbd90600   invoke-virtual {v6}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:161
+│      │    0x005436fe      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:167
+│      │    0x00543700      13080d00       const/16 v8, 0x0d           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:169
+│      │    0x00543704      13090f00       const/16 v9, 0x0f           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:173
+│      │┌─< 0x00543708      33971600       if-ne v7, v9, 0x00543734    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:177
+│      ││   0x0054370c      1a079808       const-string v7, 0x6756a1   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:181
+│      ││   0x00543710      713056ec7600   invoke-static {v6, v7, v0}, Lpc/o.e0(Ljava/lang/String;Ljava/lang/String;Z)Z ; 0xec56 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:185
+│      ││   0x00543716      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:191
+│     ┌───< 0x00543718      39070a00       if-nez v7, 0x0054372c       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:193
+│     │││   0x0054371c      1a079d08       const-string v7, 0x675731   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:197
+│     │││   0x00543720      713056ec7600   invoke-static {v6, v7, v0}, Lpc/o.e0(Ljava/lang/String;Ljava/lang/String;Z)Z ; 0xec56 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:201
+│     │││   0x00543726      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:207
+│    ┌────< 0x00543728      38070600       if-eqz v7, 0x00543734       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:209
+│    │└───> 0x0054372c      1a01b90a       const-string v1, 0x678d6c   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:213
+│    │┌───< 0x00543730      29001001       goto/16 0x00543950          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:217
+│    └──└─> 0x00543734      6e10fbd90600   invoke-virtual {v6}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:221
+│     ││    0x0054373a      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:227
+│     ││    0x0054373c      1a0a5264       const-string v10, 0x7426f0  ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:229
+│     ││    0x00543740      1a0ba308       const-string v11, 0x675857  ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:233
+│     ││    0x00543744      130c1000       const/16 v12, 0x10          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:237
+│     ││┌─< 0x00543748      33c70b00       if-ne v7, v12, 0x0054375e   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:241
+│     │││   0x0054374c      713056ecb600   invoke-static {v6, v11, v0}, Lpc/o.e0(Ljava/lang/String;Ljava/lang/String;Z)Z ; 0xec56 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:245
+│     │││   0x00543752      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:251
+│    ┌────< 0x00543754      38070500       if-eqz v7, 0x0054375e       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:253
+│    ││││   ; CODE XREF from method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ @ 0x54377e(x)
+│   ┌─────> 0x00543758      07a1           move-object v1, v10         ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:257
+│  ┌──────< 0x0054375a      2900fb00       goto/16 0x00543950          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:259
+│  │╎└──└─> 0x0054375e      6e10fbd90600   invoke-virtual {v6}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:263
+│  │╎ ││    0x00543764      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:269
+│  │╎ ││    0x00543766      130d1100       const/16 v13, 0x11          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:271
+│  │╎ ││┌─< 0x0054376a      36780b00       if-gt v8, v7, 0x00543780    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:275
+│  │╎┌────< 0x0054376e      35d70900       if-ge v7, v13, 0x00543780   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:279
+│  │╎││││   0x00543772      713056ecb600   invoke-static {v6, v11, v0}, Lpc/o.e0(Ljava/lang/String;Ljava/lang/String;Z)Z ; 0xec56 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:283
+│  │╎││││   0x00543778      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:289
+│ ┌───────< 0x0054377a      38070300       if-eqz v7, 0x00543780       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:291
+│ ││└─────< 0x0054377e      28ed           goto 0x00543758             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:295
+│ └──└──└─> 0x00543780      6e10fbd90600   invoke-virtual {v6}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:297
+│  │  ││    0x00543786      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:303
+│  │  ││    0x00543788      1a0a109a       const-string v10, str.substring_..._ ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:305 ; 0x792a6b
+│  │  ││┌─< 0x0054378c      33c73900       if-ne v7, v12, 0x005437fe   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:309
+│  │  │││   0x00543790      6e3008da0605   invoke-virtual {v6, v0, v5}, Ljava/lang/String.substring(II)Ljava/lang/String; ; 0xda08 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:313
+│  │  │││   0x00543796      0c05           move-result-object v5       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:319
+│  │  │││   0x00543798      712005dfa500   invoke-static {v5, v10}, Ljc/i.d(Ljava/lang/Object;Ljava/lang/String;)V ; 0xdf05 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:321
+│  │  │││   0x0054379e      711053ec0500   invoke-static {v5}, Lpc/n.Y(Ljava/lang/String;)Ljava/lang/Integer; ; 0xec53 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:327
+│  │  │││   0x005437a4      0c05           move-result-object v5       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:333
+│  │ ┌────< 0x005437a6      38050f00       if-eqz v5, 0x005437c4       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:335
+│  │ ││││   0x005437aa      6e10b3d90500   invoke-virtual {v5}, Ljava/lang/Number.intValue()I ; 0xd9b3 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:339
+│  │ ││││   0x005437b0      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:345
+│  │ ││││   0x005437b2      13073300       const/16 v7, 0x33           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:347 ; '3'
+│  │┌─────< 0x005437b6      36570700       if-gt v7, v5, 0x005437c4    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:351
+│  ││││││   0x005437ba      13073800       const/16 v7, 0x38           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:355 ; '8'
+│ ┌───────< 0x005437be      35750300       if-ge v5, v7, 0x005437c4    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:359
+│ ────────< 0x005437c2      281a           goto 0x005437f6             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:363
+│ └─└└────> 0x005437c4      6e3008da0601   invoke-virtual {v6, v0, v1}, Ljava/lang/String.substring(II)Ljava/lang/String; ; 0xda08 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:365
+│  │  │││   0x005437ca      0c05           move-result-object v5       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:371
+│  │  │││   0x005437cc      712005dfa500   invoke-static {v5, v10}, Ljc/i.d(Ljava/lang/Object;Ljava/lang/String;)V ; 0xdf05 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:373
+│  │  │││   0x005437d2      711053ec0500   invoke-static {v5}, Lpc/n.Y(Ljava/lang/String;)Ljava/lang/Integer; ; 0xec53 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:379
+│  │  │││   0x005437d8      0c05           move-result-object v5       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:385
+│  │ ┌────< 0x005437da      38051200       if-eqz v5, 0x005437fe       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:387
+│  │ ││││   0x005437de      6e10b3d90500   invoke-virtual {v5}, Ljava/lang/Number.intValue()I ; 0xd9b3 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:391
+│  │ ││││   0x005437e4      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:397
+│  │ ││││   0x005437e6      1307ad08       const/16 v7, 0x8ad          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:399
+│  │┌─────< 0x005437ea      36570a00       if-gt v7, v5, 0x005437fe    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:403
+│  ││││││   0x005437ee      1307a10a       const/16 v7, 0xaa1          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:407
+│ ┌───────< 0x005437f2      35750600       if-ge v5, v7, 0x005437fe    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:411
+│ │││││││   ; CODE XREF from method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ @ 0x5437c2(x)
+│ ────────> 0x005437f6      1a015055       const-string v1, str.MASTERCARD ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:415 ; 0x721ffb ; "MASTERCARD"
+│ ────────< 0x005437fa      2900ab00       goto/16 0x00543950          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:419
+│ └─└└──└─> 0x005437fe      6e10fbd90600   invoke-virtual {v6}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:423
+│  │  ││    0x00543804      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:429
+│  │  ││    0x00543806      1237           const/4 v7, 3               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:431
+│  │  ││┌─< 0x00543808      33c54b00       if-ne v5, v12, 0x0054389e   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:433
+│  │  │││   0x0054380c      1a05b208       const-string v5, 0x6759a8   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:437
+│  │  │││   0x00543810      713056ec5600   invoke-static {v6, v5, v0}, Lpc/o.e0(Ljava/lang/String;Ljava/lang/String;Z)Z ; 0xec56 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:441
+│  │  │││   0x00543816      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:447
+│  │ ┌────< 0x00543818      39054000       if-nez v5, 0x00543898       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:449
+│  │ ││││   0x0054381c      1a05b608       const-string v5, 0x6759fe   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:453
+│  │ ││││   0x00543820      713056ec5600   invoke-static {v6, v5, v0}, Lpc/o.e0(Ljava/lang/String;Ljava/lang/String;Z)Z ; 0xec56 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:457
+│  │ ││││   0x00543826      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:463
+│  │┌─────< 0x00543828      39053800       if-nez v5, 0x00543898       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:465
+│  ││││││   0x0054382c      6e3008da0607   invoke-virtual {v6, v0, v7}, Ljava/lang/String.substring(II)Ljava/lang/String; ; 0xda08 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:469
+│  ││││││   0x00543832      0c05           move-result-object v5       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:475
+│  ││││││   0x00543834      712005dfa500   invoke-static {v5, v10}, Ljc/i.d(Ljava/lang/Object;Ljava/lang/String;)V ; 0xdf05 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:477
+│  ││││││   0x0054383a      711053ec0500   invoke-static {v5}, Lpc/n.Y(Ljava/lang/String;)Ljava/lang/Integer; ; 0xec53 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:483
+│  ││││││   0x00543840      0c05           move-result-object v5       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:489
+│ ┌───────< 0x00543842      38050f00       if-eqz v5, 0x00543860       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:491
+│ │││││││   0x00543846      6e10b3d90500   invoke-virtual {v5}, Ljava/lang/Number.intValue()I ; 0xd9b3 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:495
+│ │││││││   0x0054384c      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:501
+│ │││││││   0x0054384e      130b8402       const/16 v11, 0x284         ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:503
+│ ────────< 0x00543852      365b0700       if-gt v11, v5, 0x00543860   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:507
+│ │││││││   0x00543856      130b8a02       const/16 v11, 0x28a         ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:511
+│ ────────< 0x0054385a      35b50300       if-ge v5, v11, 0x00543860   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:515
+│ ────────< 0x0054385e      281d           goto 0x00543898             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:519
+│ └───────> 0x00543860      1265           const/4 v5, 6               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:521
+│  ││││││   0x00543862      6e3008da0605   invoke-virtual {v6, v0, v5}, Ljava/lang/String.substring(II)Ljava/lang/String; ; 0xda08 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:523
+│  ││││││   0x00543868      0c05           move-result-object v5       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:529
+│  ││││││   0x0054386a      712005dfa500   invoke-static {v5, v10}, Ljc/i.d(Ljava/lang/Object;Ljava/lang/String;)V ; 0xdf05 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:531
+│  ││││││   0x00543870      711053ec0500   invoke-static {v5}, Lpc/n.Y(Ljava/lang/String;)Ljava/lang/Integer; ; 0xec53 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:537
+│  ││││││   0x00543876      0c05           move-result-object v5       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:543
+│ ┌───────< 0x00543878      38051300       if-eqz v5, 0x0054389e       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:545
+│ │││││││   0x0054387c      6e10b3d90500   invoke-virtual {v5}, Ljava/lang/Number.intValue()I ; 0xd9b3 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:549
+│ │││││││   0x00543882      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:555
+│ │││││││   0x00543884      140b2e7e0900   const v11, 0x00097e2e       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:557
+│ ────────< 0x0054388a      365b0a00       if-gt v11, v5, 0x0054389e   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:563
+│ │││││││   0x0054388e      140b4e810900   const v11, 0x0009814e       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:567
+│ ────────< 0x00543894      35b50500       if-ge v5, v11, 0x0054389e   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:573
+│ │││││││   ; CODE XREF from method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ @ 0x54385e(x)
+│ ──└└────> 0x00543898      1a016012       const-string v1, str.DISCOVER ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:577 ; 0x68b20b
+│ ││ ┌────< 0x0054389c      285a           goto 0x00543950             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:581
+│ └─────└─> 0x0054389e      6e10fbd90600   invoke-virtual {v6}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:583
+│  │ │││    0x005438a4      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:589
+│  │ │││┌─< 0x005438a6      36592000       if-gt v9, v5, 0x005438e6    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:591
+│  │┌─────< 0x005438aa      35d51e00       if-ge v5, v13, 0x005438e6   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:595
+│  ││││││   0x005438ae      6e3008da0601   invoke-virtual {v6, v0, v1}, Ljava/lang/String.substring(II)Ljava/lang/String; ; 0xda08 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:599
+│  ││││││   0x005438b4      0c01           move-result-object v1       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:605
+│  ││││││   0x005438b6      712005dfa100   invoke-static {v1, v10}, Ljc/i.d(Ljava/lang/Object;Ljava/lang/String;)V ; 0xdf05 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:607
+│  ││││││   0x005438bc      711053ec0100   invoke-static {v1}, Lpc/n.Y(Ljava/lang/String;)Ljava/lang/Integer; ; 0xec53 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:613
+│  ││││││   0x005438c2      0c01           move-result-object v1       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:619
+│ ┌───────< 0x005438c4      38011100       if-eqz v1, 0x005438e6       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:621
+│ │││││││   0x005438c8      6e10b3d90100   invoke-virtual {v1}, Ljava/lang/Number.intValue()I ; 0xd9b3 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:625
+│ │││││││   0x005438ce      0a01           move-result v1              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:631
+│ │││││││   0x005438d0      1305c80d       const/16 v5, 0xdc8          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:633
+│ ────────< 0x005438d4      36150900       if-gt v5, v1, 0x005438e6    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:637
+│ │││││││   0x005438d8      1305060e       const/16 v5, 0xe06          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:641
+│ ────────< 0x005438dc      35510500       if-ge v1, v5, 0x005438e6    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:645
+│ │││││││   0x005438e0      1a01611d       const-string v1, 0x6a182d   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:649
+│ ────────< 0x005438e4      2836           goto 0x00543950             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:653
+│ └─└───└─> 0x005438e6      6e10fbd90600   invoke-virtual {v6}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:655
+│  │ │││    0x005438ec      0a01           move-result v1              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:661
+│  │ │││    0x005438ee      13050e00       const/16 v5, 0x0e           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:663
+│  │ │││┌─< 0x005438f2      33512e00       if-ne v1, v5, 0x0054394e    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:667
+│  │ ││││   0x005438f6      1a019a08       const-string v1, 0x6756a9   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:671
+│  │ ││││   0x005438fa      713056ec1600   invoke-static {v6, v1, v0}, Lpc/o.e0(Ljava/lang/String;Ljava/lang/String;Z)Z ; 0xec56 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:675
+│  │ ││││   0x00543900      0a01           move-result v1              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:681
+│  │┌─────< 0x00543902      39012300       if-nez v1, 0x00543948       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:683
+│  ││││││   0x00543906      1a019e08       const-string v1, 0x675735   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:687
+│  ││││││   0x0054390a      713056ec1600   invoke-static {v6, v1, v0}, Lpc/o.e0(Ljava/lang/String;Ljava/lang/String;Z)Z ; 0xec56 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:691
+│  ││││││   0x00543910      0a01           move-result v1              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:697
+│ ┌───────< 0x00543912      39011b00       if-nez v1, 0x00543948       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:699
+│ │││││││   0x00543916      6e3008da0607   invoke-virtual {v6, v0, v7}, Ljava/lang/String.substring(II)Ljava/lang/String; ; 0xda08 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:703
+│ │││││││   0x0054391c      0c01           move-result-object v1       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:709
+│ │││││││   0x0054391e      712005dfa100   invoke-static {v1, v10}, Ljc/i.d(Ljava/lang/Object;Ljava/lang/String;)V ; 0xdf05 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:711
+│ │││││││   0x00543924      711053ec0100   invoke-static {v1}, Lpc/n.Y(Ljava/lang/String;)Ljava/lang/Integer; ; 0xec53 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:717
+│ │││││││   0x0054392a      0c01           move-result-object v1       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:723
+│ ────────< 0x0054392c      38011100       if-eqz v1, 0x0054394e       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:725
+│ │││││││   0x00543930      6e10b3d90100   invoke-virtual {v1}, Ljava/lang/Number.intValue()I ; 0xd9b3 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:729
+│ │││││││   0x00543936      0a01           move-result v1              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:735
+│ │││││││   0x00543938      13052c01       const/16 v5, 0x12c          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:737
+│ ────────< 0x0054393c      36150900       if-gt v5, v1, 0x0054394e    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:741
+│ │││││││   0x00543940      13053201       const/16 v5, 0x132          ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:745
+│ ────────< 0x00543944      35510500       if-ge v1, v5, 0x0054394e    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:749
+│ └─└─────> 0x00543948      1a015512       const-string v1, str.DINERS ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:753 ; 0x68b159
+│  │┌─────< 0x0054394c      2802           goto 0x00543950             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:757
+│ ──────└─> 0x0054394e      1201           const/4 v1, 0               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:759
+│  │││││    ; XREFS: CODE 0x00543730  CODE 0x0054375a  CODE 0x005437fa  
+│  │││││    ; XREFS: CODE 0x0054389c  CODE 0x005438e4  CODE 0x0054394c  
+│ ─└└└└─┌─< 0x00543950      39010300       if-nez v1, 0x00543956       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:761
+│     ┌───< 0x00543954      2856           goto 0x00543a00             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:765
+│     ││└─> 0x00543956      2201632c       new-instance v1, Ljava/lang/StringBuilder; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:767 ; 0x336f0
+│     ││    0x0054395a      701019da0100   invoke-direct {v1}, Ljava/lang/StringBuilder.<init>()V ; 0xda19 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:771
+│     ││    0x00543960      6e10fbd90200   invoke-virtual {v2}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:777
+│     ││    0x00543966      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:783
+│     ││    0x00543968      0106           move v6, v0                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:785
+│     ││    ; CODE XREF from method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ @ 0x54398c(x)
+│    ┌──┌─> 0x0054396a      35561200       if-ge v6, v5, 0x0054398e    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:787
+│    │││╎   0x0054396e      6e20e1d96200   invoke-virtual {v2, v6}, Ljava/lang/String.charAt(I)C ; 0xd9e1 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:791
+│    │││╎   0x00543974      0a07           move-result v7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:797
+│    │││╎   0x00543976      7110edd80700   invoke-static {v7}, Ljava/lang/Character.isDigit(C)Z ; 0xd8ed ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:799
+│    │││╎   0x0054397c      0a09           move-result v9              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:805
+│   ┌─────< 0x0054397e      38090500       if-eqz v9, 0x00543988       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:807
+│   ││││╎   0x00543982      6e201cda7100   invoke-virtual {v1, v7}, Ljava/lang/StringBuilder.append(C)Ljava/lang/Appendable; ; 0xda1c ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:811
+│   └─────> 0x00543988      d8060601       add-int/lit8 v6, v6, 0x1    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:817
+│    │││└─< 0x0054398c      28ef           goto 0x0054396a             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:821
+│    └────> 0x0054398e      6e1034da0100   invoke-virtual {v1}, Ljava/lang/StringBuilder.toString()Ljava/lang/String; ; 0xda34 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:823
+│     ││    0x00543994      0c01           move-result-object v1       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:829
+│     ││    0x00543996      6e10fbd90100   invoke-virtual {v1}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:831
+│     ││    0x0054399c      0a02           move-result v2              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:837
+│     ││┌─< 0x0054399e      35820300       if-ge v2, v8, 0x005439a4    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:839
+│    ┌────< 0x005439a2      284d           goto 0x00543a3c             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:843
+│    │││└─> 0x005439a4      6e10fbd90100   invoke-virtual {v1}, Ljava/lang/String.length()I ; 0xd9fb ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:845
+│    │││    0x005439aa      0a02           move-result v2              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:851
+│    │││    0x005439ac      b132           sub-int/2addr v2, v3        ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:853
+│    │││    0x005439ae      0123           move v3, v2                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:855
+│    │││    0x005439b0      0102           move v2, v0                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:857
+│    │││    ; CODE XREF from method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ @ 0x5439e2(x)
+│    │││┌─> 0x005439b2      12f5           const/4 v5, -1              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:859
+│   ┌─────< 0x005439b4      35351800       if-ge v5, v3, 0x005439e4    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:861
+│   ││││╎   0x005439b8      6e20e1d93100   invoke-virtual {v1, v3}, Ljava/lang/String.charAt(I)C ; 0xd9e1 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:865
+│   ││││╎   0x005439be      0a05           move-result v5              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:871
+│   ││││╎   0x005439c0      d80505d0       add-int/lit8 v5, v5, 0xffffffd0 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:873
+│  ┌──────< 0x005439c4      38020a00       if-eqz v2, 0x005439d8       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:877
+│  │││││╎   0x005439c8      da050502       mul-int/lit8 v5, v5, 0x2    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:881
+│  │││││╎   0x005439cc      13060900       const/16 v6, 0x09           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:885
+│ ┌───────< 0x005439d0      37650400       if-le v5, v6, 0x005439d8    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:889
+│ ││││││╎   0x005439d4      d80505f7       add-int/lit8 v5, v5, 0xfffffff7 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:893
+│ └└──────> 0x005439d8      b050           add-int/2addr v0, v5        ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:897
+│   ││││╎   0x005439da      df020201       xor-int/lit8 v2, v2, 0x1    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:899
+│   ││││╎   0x005439de      d80303ff       add-int/lit8 v3, v3, 0xffffffff ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:903
+│   ││││└─< 0x005439e2      28e8           goto 0x005439b2             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:907
+│   └─────> 0x005439e4      13010a00       const/16 v1, 0x0a           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:909
+│    │││    0x005439e8      b410           rem-int/2addr v0, v1        ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:913
+│    │││┌─< 0x005439ea      39002900       if-nez v0, 0x00543a3c       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:915
+│    ││││   0x005439ee      712064d4e400   invoke-static {v4, v14}, Lh3/e1.o0(Ljava/lang/String;Ljava/lang/String;)Z ; 0xd464 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:919
+│    ││││   0x005439f4      0a0e           move-result v14             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:925
+│   ┌─────< 0x005439f6      380e0300       if-eqz v14, 0x005439fc      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:927
+│  ┌──────< 0x005439fa      2821           goto 0x00543a3c             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:931
+│ ┌─└─────> 0x005439fc      390f0500       if-nez v15, 0x00543a06      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:933
+│ ││ ││││   ; CODE XREFS from method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ @ 0x54368a(x), 0x543954(x)
+│ ││ │└└──> 0x00543a00      1a0efd13       const-string v14, 0x68e1f2  ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:937
+│ ││ │  │   0x00543a04      110e           return-object v14           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:941
+│ └────┌──< 0x00543a06      38100900       if-eqz v16, 0x00543a18      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:943
+│  │ │┌───< 0x00543a0a      38110800       if-eqz v17, 0x00543a1a      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:947
+│  │ ││││   0x00543a0e      74015fd91100   invoke-virtual/range {v17..v17}, Ljava/lang/Integer.intValue()I ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:951
+│  │ ││││   0x00543a14      0a01           move-result v1              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:957
+│  │┌─────< 0x00543a16      2802           goto 0x00543a1a             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:959
+│  ││││└──> 0x00543a18      1251           const/4 v1, 5               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:961
+│  ││││ │   ; CODE XREF from method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ @ 0x543a16(x)
+│  │└─└───> 0x00543a1a      620e3a73       sget-object v14, Lkc/d;->b Lkc/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:963 ; [0x9fb7c:4]=0x2e382e3a ; ":.8.:o"
+│  │ │  │   0x00543a1e      6e10f6e10e00   invoke-virtual {v14}, Lkc/a.f()Ljava/util/Random; ; 0xe1f6 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:967
+│  │ │  │   0x00543a24      0c0e           move-result-object v14      ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:973
+│  │ │  │   0x00543a26      13006400       const/16 v0, 0x64           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:975 ; 'd'
+│  │ │  │   0x00543a2a      6e2069dd0e00   invoke-virtual {v14, v0}, Ljava/util/Random.nextInt(I)I ; 0xdd69 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:979
+│  │ │  │   0x00543a30      0a0e           move-result v14             ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:985
+│  │ │ ┌──< 0x00543a32      351e0500       if-ge v14, v1, 0x00543a3c   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:987
+│  │ │ ││   0x00543a36      1a0e481e       const-string v14, 0x6a25fe  ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:991
+│  │ │ ││   0x00543a3a      110e           return-object v14           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:995
+│  │ │ ││   ; CODE XREFS from method.public.static.Lh3_e1.Lh3_e1.method.h0_Ljava_lang_String_ZZLjava_lang_Integer__Ljava_lang_String_ @ 0x5439a2(x), 0x5439fa(x)
+│  └─└─└└─> 0x00543a3c      1a0e5312       const-string v14, 0x68b147  ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:997
+└           0x00543a40      110e           return-object v14           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:1001

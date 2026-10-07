@@ -1,0 +1,13 @@
+package org.chromium.support_lib_boundary;
+
+import java.util.concurrent.Executor;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes3.dex */
+public interface ProxyControllerBoundaryInterface {
+    void clearProxyOverride(Runnable runnable, Executor executor);
+
+    void setProxyOverride(String[][] strArr, String[] strArr2, Runnable runnable, Executor executor);
+
+    void setProxyOverride(String[][] strArr, String[] strArr2, Runnable runnable, Executor executor, boolean z4);
+}

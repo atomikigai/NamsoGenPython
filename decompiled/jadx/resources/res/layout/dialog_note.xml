@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:textColorHint="#aaaaaa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:hint="@string/note_hint"
+    app:boxStrokeColor="@color/background_bar_color"
+    app:hintTextColor="#aaaaaa"
+    style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+    <com.google.android.material.textfield.TextInputEditText
+        android:textSize="15sp"
+        android:textColor="#f3f3f3"
+        android:textColorHint="#aaaaaa"
+        android:gravity="top"
+        android:id="@+id/inputNoteContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minLines="3"
+        android:inputType="textMultiLine"/>
+</com.google.android.material.textfield.TextInputLayout>

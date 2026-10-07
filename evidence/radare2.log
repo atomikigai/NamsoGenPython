@@ -1,0 +1,170 @@
+Radare2 static DEX inspection
+Date: 2026-10-07
+$ r2 -v
+radare2 6.2.2 +37863 abi:142 @ linux-x86_64
+birth: git.6.2.2 2026-10-03__09:10:30
+commit: ad27058877024389292fddf12e1db6e13824ba34
+options: gpl -O1 cs:5 cl:2 meson
+
+## apps/NamsoGenPython/artifacts/apk/classes.dex
+sha256: 4ab3eb892fb05ca83715c5b008ef09cbc3a0ed5d6ae3a11a3c16ae8e5f22319d
+$ r2 -q -c 'iI' apps/NamsoGenPython/artifacts/apk/classes.dex
+stderr: ERROR: Invalid checksum length
+arch     dalvik
+baddr    0x0
+binsz    8629864
+bintype  class
+bits     32
+canary   false
+injprot  false
+retguard false
+class    037
+crypto   false
+endian   little
+havecode true
+laddr    0x0
+lang     dalvik
+linenum  false
+lsyms    false
+machine  Dalvik VM
+nx       false
+os       linux
+pic      false
+relocs   false
+sanitize false
+static   false
+stripped false
+uncaps   false
+subsys   android
+va       true
+sha1  12-8629844c  0d7e902c6cea59d942b69490302f71ba7b44cf80
+adler32  12-8629864c  abd51dde
+$ r2 -q -c 'ic~java class' apps/NamsoGenPython/artifacts/apk/classes.dex
+app-owned classes: 10
+0x00130abc [0x001fb164 - 0x001fb3d2]    622 java class 769 Lapp/namso_gen/spacehowen/CheckerHistoryActivity :: Lg/g;
+0x00130adc [0x001fb3e4 - 0x001fb594]    432 java class 770 Lapp/namso_gen/spacehowen/FcmApi :: Landroid/app/Application;
+0x00130afc [0x001fb5a4 - 0x001fb9c6]   1058 java class 771 Lapp/namso_gen/spacehowen/FcmService :: Lcom/google/firebase/messaging/FirebaseMessagingService;
+0x00130b1c [0x001fb9d8 - 0x001fca04]   4140 java class 772 Lapp/namso_gen/spacehowen/MainActivity :: Lg/g;
+0x00130b3c [0x001fca14 - 0x001fcb84]    368 java class 773 Lapp/namso_gen/spacehowen/NotificationHistoryActivity :: Lg/g;
+0x00130b5c [0x001fcb94 - 0x001fda6e]   3802 java class 774 Lapp/namso_gen/spacehowen/SettingsActivity :: Lg/g;
+0x00130b7c [0x001fdc94 - 0x007a6d7e] 5935338 java class 775 Lapp/namso_gen/spacehowen/data/NotesDatabase :: Ly1/v;
+0x00130b9c [0x001fda80 - 0x001fdc84]    516 java class 776 Lapp/namso_gen/spacehowen/data/NotesDatabase_Impl :: Lapp/namso_gen/spacehowen/data/NotesDatabase;
+0x00130bbc [0x001fdd14 - 0x001fef12]   4606 java class 777 Lapp/namso_gen/spacehowen/ui/browser/ProfileViewerActivity :: Lg/g;
+0x00176ffc [0x004fb328 - 0x004fb34e]     38 java class 9771 Lcom/pairip/application/Application :: Lapp/namso_gen/spacehowen/FcmApi;
+$ r2 -q -c 'ic~java class.*Lapp/namso_gen/spacehowen/' apps/NamsoGenPython/artifacts/apk/classes.dex
+
+$ r2 -q -c 'iz~https://api.spacehowen.com' apps/NamsoGenPython/artifacts/apk/classes.dex
+33787 0x00773586 0x00773586 51  51   data    ascii https://api.spacehowen.com/bins-extras/save_bin.php
+33788 0x007735bb 0x007735bb 58  58   data    ascii https://api.spacehowen.com/bins-extras/search_bin.php?bin=
+33789 0x007735f7 0x007735f7 40  40   data    ascii https://api.spacehowen.com/cards-checker
+33790 0x00773621 0x00773621 49  49   data    ascii https://api.spacehowen.com/fcm/tokens.php?action=
+33791 0x00773654 0x00773654 56  56   data    ascii https://api.spacehowen.com/fcm/track.php?action=received
+33792 0x0077368e 0x0077368e 48  48   data    ascii https://api.spacehowen.com/users-coins/coins.php
+33793 0x007736c0 0x007736c0 47  47   data    ascii https://api.spacehowen.com/users-proxys/buy.php
+33794 0x007736f1 0x007736f1 53  53   data    ascii https://api.spacehowen.com/users-proxys/countries.php
+33795 0x00773728 0x00773728 53  53   data    ascii https://api.spacehowen.com/users-proxys/get_proxy.php
+33796 0x0077375f 0x0077375f 44  44   data    ascii https://api.spacehowen.com/verify/verify.php
+
+## apps/NamsoGenPython/artifacts/apk/classes2.dex
+sha256: dd1c0b738737630846d167dfa37ad88ef3249074cd6240751e22929e2e92adaf
+$ r2 -q -c 'iI' apps/NamsoGenPython/artifacts/apk/classes2.dex
+stderr: ERROR: Invalid checksum length
+arch     dalvik
+baddr    0x0
+binsz    172152
+bintype  class
+bits     32
+canary   false
+injprot  false
+retguard false
+class    037
+crypto   false
+endian   little
+havecode true
+laddr    0x0
+lang     dalvik
+linenum  false
+lsyms    false
+machine  Dalvik VM
+nx       false
+os       linux
+pic      false
+relocs   false
+sanitize false
+static   false
+stripped false
+uncaps   false
+subsys   java
+va       true
+sha1  12-172132c  b154c3be30f8d18d64c083450e31c6d7082964d8
+adler32  12-172152c  ab22566a
+$ r2 -q -c 'ic~java class' apps/NamsoGenPython/artifacts/apk/classes2.dex
+app-owned classes: 0
+
+$ r2 -q -c 'ic~java class.*Lapp/namso_gen/spacehowen/' apps/NamsoGenPython/artifacts/apk/classes2.dex
+
+$ r2 -q -c 'iz~https://api.spacehowen.com' apps/NamsoGenPython/artifacts/apk/classes2.dex
+
+
+## apps/NamsoGenPython/artifacts/apk/classes3.dex
+sha256: 8b8695e0b75d7fbc4bd6d828ff5d93ac9a0d936bca4d4b1708a8d9b47bce3a32
+$ r2 -q -c 'iI' apps/NamsoGenPython/artifacts/apk/classes3.dex
+stderr: ERROR: Invalid checksum length
+arch     dalvik
+baddr    0x0
+binsz    1198848
+bintype  class
+bits     32
+canary   false
+injprot  false
+retguard false
+class    037
+crypto   false
+endian   little
+havecode true
+laddr    0x0
+lang     dalvik
+linenum  false
+lsyms    false
+machine  Dalvik VM
+nx       false
+os       linux
+pic      false
+relocs   false
+sanitize false
+static   false
+stripped false
+uncaps   false
+subsys   android
+va       true
+sha1  12-1198828c  d6a6c8bac2f7e8e1e78f9bbd1e70e0cbada41393
+adler32  12-1198848c  f1804eac
+$ r2 -q -c 'ic~java class' apps/NamsoGenPython/artifacts/apk/classes3.dex
+app-owned classes: 0
+
+$ r2 -q -c 'ic~java class.*Lapp/namso_gen/spacehowen/' apps/NamsoGenPython/artifacts/apk/classes3.dex
+
+$ r2 -q -c 'iz~https://api.spacehowen.com' apps/NamsoGenPython/artifacts/apk/classes3.dex
+
+
+$ r2 -q -c 'iz~spacehowen; q' apps/NamsoGenPython/artifacts/apk/classes.dex
+28138 0x00750c09 0x00750c09 24  24   data    ascii app.namso_gen.spacehowen
+28890 0x00754100 0x00754100 72  72   data    ascii checker_batches(app.namso_gen.spacehowen.data.CheckerBatch).
+33787 0x00773586 0x00773586 51  51   data    ascii https://api.spacehowen.com/bins-extras/save_bin.php
+33788 0x007735bb 0x007735bb 58  58   data    ascii https://api.spacehowen.com/bins-extras/search_bin.php?bin=
+33789 0x007735f7 0x007735f7 40  40   data    ascii https://api.spacehowen.com/cards-checker
+33790 0x00773621 0x00773621 49  49   data    ascii https://api.spacehowen.com/fcm/tokens.php?action=
+33791 0x00773654 0x00773654 56  56   data    ascii https://api.spacehowen.com/fcm/track.php?action=received
+33792 0x0077368e 0x0077368e 48  48   data    ascii https://api.spacehowen.com/users-coins/coins.php
+33793 0x007736c0 0x007736c0 47  47   data    ascii https://api.spacehowen.com/users-proxys/buy.php
+33794 0x007736f1 0x007736f1 53  53   data    ascii https://api.spacehowen.com/users-proxys/countries.php
+33795 0x00773728 0x00773728 53  53   data    ascii https://api.spacehowen.com/users-proxys/get_proxy.php
+33796 0x0077375f 0x0077375f 44  44   data    ascii https://api.spacehowen.com/verify/verify.php
+33816 0x00773bb8 0x00773bb8 39  39   data    ascii https://link.spacehowen.com/api/shorten
+33823 0x00773cf7 0x00773cf7 70  70   data    ascii https://play.google.com/store/apps/details?id=app.namso_gen.spacehowen
+33825 0x00773d76 0x00773d76 92  92   data    ascii https://raw.githubusercontent.com/spacehowen/world-data-json/refs/heads/main/world_data.json
+33827 0x00773e10 0x00773e10 23  23   data    ascii https://t.me/spacehowen
+35727 0x0078092e 0x0078092e 54  54   data    ascii notes(app.namso_gen.spacehowen.data.Note).
+35739 0x00780a4f 0x00780a4f 74  74   data    ascii notifications(app.namso_gen.spacehowen.data.NotificationItem).
+39278 0x00791edf 0x00791edf 22  22   data    ascii spacehowen-verify-2026
+39553 0x007930fd 0x007930fd 77  77   data    ascii temp_mail_history(app.namso_gen.spacehowen.data.TempMailHistory).

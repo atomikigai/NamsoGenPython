@@ -1,0 +1,32 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.RemoteException;
+import e6.h2;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+final class zzdua extends zzbxi {
+    final /* synthetic */ zzduc zza;
+
+    public zzdua(zzduc zzducVar) {
+        this.zza = zzducVar;
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzbxj
+    public final void zze(int i) throws RemoteException {
+        zzduc zzducVar = this.zza;
+        zzducVar.zzb.zzm(zzducVar.zza, i);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzbxj
+    public final void zzf(h2 h2Var) throws RemoteException {
+        zzduc zzducVar = this.zza;
+        zzducVar.zzb.zzm(zzducVar.zza, h2Var.f3314a);
+    }
+
+    @Override // com.google.android.gms.internal.ads.zzbxj
+    public final void zzg() throws RemoteException {
+        zzduc zzducVar = this.zza;
+        zzducVar.zzb.zzp(zzducVar.zza);
+    }
+}

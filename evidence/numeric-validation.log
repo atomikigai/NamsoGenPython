@@ -1,0 +1,7 @@
+Ejecución directa Python, 2026-10-07, código 0
+Unicode decimal ١: 1
+Overflow (9 repetido 5000 veces): None
+Leading zeros (0 repetido 5000 veces + 1): 1
+Signed boundaries: [2147483647, None, -2147483648, None]
+Superscript stripped: 4xx
+Synthetic generation from superscripts: 2914177763170666|10|2038|074

@@ -1,0 +1,16 @@
+package l3;
+
+import android.widget.LinearLayout;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+public final class w extends x1.w0 {
+
+    /* JADX INFO: renamed from: u, reason: collision with root package name */
+    public final bd.u f6723u;
+
+    public w(bd.u uVar) {
+        super((LinearLayout) uVar.f1677c);
+        this.f6723u = uVar;
+    }
+}

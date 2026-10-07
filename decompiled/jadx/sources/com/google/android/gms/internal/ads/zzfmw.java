@@ -1,0 +1,21 @@
+package com.google.android.gms.internal.ads;
+
+import android.view.View;
+import java.util.UUID;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class zzfmw {
+    public static zzfmw zza(zzfmx zzfmxVar, zzfmy zzfmyVar) {
+        zzfor.zza();
+        return new zzfna(zzfmxVar, zzfmyVar, UUID.randomUUID().toString());
+    }
+
+    public abstract void zzb(View view, zzfnd zzfndVar, String str);
+
+    public abstract void zzc();
+
+    public abstract void zzd(View view);
+
+    public abstract void zze();
+}

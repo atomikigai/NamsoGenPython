@@ -1,0 +1,10 @@
+package jc;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes3.dex */
+public final class s {
+    public static String a(g gVar) {
+        String string = gVar.getClass().getGenericInterfaces()[0].toString();
+        return string.startsWith("kotlin.jvm.functions.") ? string.substring(21) : string;
+    }
+}

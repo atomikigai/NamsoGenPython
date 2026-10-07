@@ -1,0 +1,10 @@
+# Revisión independiente del port
+
+Alcance: lectura estática de `src/namso.py`, `src/storage.py` y comparación puntual con JADX y `evidence/radare2-enum.log`. Ejecución permitida solo con entradas sintéticas; no se ejecutó el APK ni se hicieron pruebas formales. La revisión no acredita equivalencia completa de runtime.
+
+- **RESUELTO — `src/namso.py:53-74`**: parser incremental acotado a signed-32, con dígitos decimales BMP; elimina el fallo por entradas numéricas enormes y acepta `١` → `1`.
+- **RESUELTO — `src/namso.py:53-55, 144-171, 186-217, 299-310`**: `java_digit` ahora limita `Character.isDigit(char)` a decimales BMP y se usa en saneamiento, marca y extracción de PAN; `²` se descarta. El generador reproduce por separado el clamp char-'0' de `n.java`, y el checker conserva su resta char-'0' de `e1.java`.
+- **MEDIA — `src/namso.py:293-294`**: el port separa la línea directamente por `|` tras `strip()`, pero omite la normalización previa que la propia documentación identifica (`e1.java:835-870`): sustituir espacios por `|`, quitar no-ASCII y regex de campos exactos. La CLI declara que recibe una línea ya normalizada, así que es una limitación documentada, no un error del núcleo si se mantiene ese contrato. Evitar describir la CLI como clon del flujo de entrada completo.
+- **BAJA — `src/storage.py:39-44`**: las cuatro tablas, PKs, defaults de ID cero (`NULLIF`), inserciones Room (`OR ABORT`/`OR REPLACE`) y consultas observadas están alineadas con `i3/k.java`, `i3/c.java` y `h3/o.java`. Sin hallazgo concreto de divergencia CRUD en el alcance revisado. La DB no replica `room_master_table`/identity hash de Room; esperable para SQLite didáctico independiente, no archivo intercambiable directamente con Room.
+
+Verificación directa sintética registrada tras la corrección: `١` → `1`; 5000 nueves → `None`; 5000 ceros + `1` → `1`; límites signed-32 aceptados/rechazados según rango; `²` se elimina y la generación ya no falla por ese carácter; `demo` termina con código 0. Sin pruebas formales ni ejecución del APK. No se amplió la investigación fuera de los archivos indicados.

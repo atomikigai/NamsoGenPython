@@ -1,0 +1,50 @@
+[
+  {
+    "operation": "world-data",
+    "mode": "live-public-read",
+    "result": "JSON received",
+    "top_level_keys": [
+      "M\u00e9xico",
+      "Estados Unidos",
+      "Brasil",
+      "Espa\u00f1a",
+      "Argentina",
+      "Francia",
+      "Bolivia",
+      "Macao",
+      "Chile",
+      "Rusia",
+      "Ucrania",
+      "Canad\u00e1",
+      "Australia",
+      "Reino Unido",
+      "Egipto",
+      "Italia",
+      "Alemania",
+      "Argelia",
+      "Kazajist\u00e1n",
+      "Arabia Saudita",
+      "Emiratos \u00c1rabes Unidos",
+      "Guyana"
+    ],
+    "entries": 22,
+    "elapsed_seconds": 0.64
+  },
+  {
+    "operation": "bin-lookup",
+    "mode": "live-public-read",
+    "result": "FAILED",
+    "error": "Error HTTP 403.",
+    "elapsed_seconds": 0.7
+  },
+  {
+    "operation": "proxy-countries",
+    "mode": "live-public-read",
+    "result": "JSON received",
+    "top_level_keys": [
+      "data"
+    ],
+    "entries": 1,
+    "elapsed_seconds": 0.79
+  }
+]

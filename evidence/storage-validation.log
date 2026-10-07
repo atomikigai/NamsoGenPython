@@ -1,0 +1,8 @@
+note updated: True
+notes: [{'id': 1, 'content': 'nota actualizada', 'createdAt': 2}]
+note deleted: True
+notifications: [{'notificationId': 'demo-2', 'title': 'Aviso demo 2', 'body': 'Otro contenido', 'url': 'https://example.invalid', 'receivedAt': 20}, {'notificationId': 'demo-1', 'title': 'Aviso demo', 'body': 'Contenido sintético', 'url': None, 'receivedAt': 10}]
+old notifications deleted: 1
+checker_batches: [{'id': 1, 'gate': 'gate-demo', 'content': 'dato1|dato2', 'total': 2, 'createdAt': 30}]
+temp_mail_history: [{'email': 'demo@example.invalid', 'createdAt': 40}]
+temp mail deleted: 1

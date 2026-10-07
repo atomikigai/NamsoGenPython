@@ -1,0 +1,51 @@
+package com.google.android.gms.internal.ads;
+
+import android.os.RemoteException;
+import i6.h;
+import k6.c;
+import k6.t;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+final class zzbro implements c {
+    final /* synthetic */ zzbqz zza;
+    final /* synthetic */ zzbpm zzb;
+
+    public zzbro(zzbrs zzbrsVar, zzbqz zzbqzVar, zzbpm zzbpmVar) {
+        this.zza = zzbqzVar;
+        this.zzb = zzbpmVar;
+    }
+
+    @Override // k6.c
+    public final void onFailure(w5.a aVar) {
+        try {
+            this.zza.zzf(aVar.a());
+        } catch (RemoteException e) {
+            h.e("", e);
+        }
+    }
+
+    public final /* bridge */ /* synthetic */ Object onSuccess(Object obj) {
+        t tVar = (t) obj;
+        if (tVar != null) {
+            try {
+                this.zza.zzg(new zzbqn(tVar));
+            } catch (RemoteException e) {
+                h.e("", e);
+            }
+            return new zzbrt(this.zzb);
+        }
+        h.g("Adapter incorrectly returned a null ad. The onFailure() callback should be called if an adapter fails to load an ad.");
+        try {
+            this.zza.zze("Adapter returned null.");
+            return null;
+        } catch (RemoteException e4) {
+            h.e("", e4);
+            return null;
+        }
+    }
+
+    public final void onFailure(String str) {
+        onFailure(new w5.a(0, str, "undefined", null));
+    }
+}

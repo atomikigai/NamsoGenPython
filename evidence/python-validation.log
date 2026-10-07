@@ -1,0 +1,26 @@
+== Generador (BIN sintético 4111xxxxxxxxxxxx, seed 2026) ==
+4111158813998691|12|2030|879 | Luhn: True
+4111730911417079|12|2030|536 | Luhn: True
+4111455681518845|12|2030|472 | Luhn: True
+AMEX 3782xxxxxxxxxxx: 378294055761699|09|2033|1689
+== Checker offline (hoy=2026-10, gate=PREMIUM) ==
+gate_config PREMIUM: {'nombre': 'PREMIUM', 'livePct': 6, 'vidaMinMs': 11443380, 'vidaMaxMs': 70565078}
+4111111111111111|12|2030|123       -> DIED
+4111111111111112|12|2030|123       -> DIED
+4111111111111111|01|2020|123       -> DIED
+1234567890123456|12|2030|123       -> ERROR
+4111111111111111|12|2030           -> ERROR
+tarjeta válida x10000, no premium: LIVE=511 (5.1%, esperado ~5%): es un dado
+== IBAN ==
+ES ES3800495042830070571763 mod97: True
+DE DE15100500005642942386 mod97: True
+IT IT68E0542803280749929921449 mod97: True
+FR FR8130003000707702814098Y92 mod97: True
+== CPF == 968.039.872-21 True
+== Password(16) == CgJFP=cfyvs.bP(t
+== Mail puntos == ['abcd@gmail.com', 'a.bcd@gmail.com', 'a.b.cd@gmail.com', 'a.b.c.d@gmail.com', 'a.bc.d@gmail.com']
+== Envejecimiento LIVE (ts=0) ==
+   0.1 h -> LIVE
+   1.0 h -> LIVE
+  12.0 h -> LIVE
+  30.0 h -> DIED

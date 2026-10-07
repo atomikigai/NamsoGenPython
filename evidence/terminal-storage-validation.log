@@ -1,0 +1,99 @@
+{
+  "database": ":memory:",
+  "operation": "notas add",
+  "result": 1
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "notas list",
+  "result": [
+    {
+      "id": 1,
+      "content": "fixture note",
+      "createdAt": 1
+    }
+  ]
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "notas update",
+  "result": true
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "notas delete",
+  "result": true
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "notificaciones save",
+  "result": null
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "notificaciones list",
+  "result": [
+    {
+      "notificationId": "fixture",
+      "title": "demo",
+      "body": "demo",
+      "url": null,
+      "receivedAt": 1
+    }
+  ]
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "notificaciones delete",
+  "result": 1
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "batches add",
+  "result": 1
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "batches list",
+  "result": [
+    {
+      "id": 1,
+      "gate": "GRATIS",
+      "content": "synthetic",
+      "total": 1,
+      "createdAt": 1
+    }
+  ]
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "mail save",
+  "result": null
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "mail list",
+  "result": [
+    {
+      "email": "demo@catchmail.io",
+      "createdAt": 1
+    }
+  ]
+}
+exit_code 0
+{
+  "database": ":memory:",
+  "operation": "mail delete",
+  "result": 1
+}
+exit_code 0

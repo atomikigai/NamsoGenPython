@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="catchmail_domain_array">
+        <item>catchmail.io</item>
+        <item>mailistry.com</item>
+        <item>zeppost.com</item>
+        <item>ctmip.net</item>
+    </array>
+    <array name="countries_array">
+        <item>Perú</item>
+        <item>México</item>
+        <item>Estados Unidos</item>
+        <item>Brasil</item>
+        <item>España</item>
+        <item>Argentina</item>
+        <item>Francia</item>
+        <item>Bolivia</item>
+        <item>Macao</item>
+        <item>Chile</item>
+        <item>Rusia</item>
+        <item>Ucrania</item>
+        <item>Canadá</item>
+        <item>Australia</item>
+        <item>Reino Unido</item>
+        <item>Egipto</item>
+        <item>Italia</item>
+        <item>Alemania</item>
+        <item>Argelia</item>
+        <item>Kazajistán</item>
+        <item>Arabia Saudita</item>
+        <item>Emiratos Árabes Unidos</item>
+        <item>Guyana</item>
+    </array>
+    <array name="iban_country_array">
+        <item>España</item>
+        <item>Alemania</item>
+        <item>Italia</item>
+        <item>Francia</item>
+    </array>
+    <array name="months_array">
+        <item>Random</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </array>
+    <array name="paises">
+        <item>Australia</item>
+        <item>México</item>
+        <item>Brasil</item>
+        <item>Canadá</item>
+        <item>Suiza</item>
+        <item>Alemania</item>
+        <item>Dinamarca</item>
+        <item>España</item>
+        <item>Finlandia</item>
+        <item>Francia</item>
+        <item>Reino Unido</item>
+        <item>Irlanda</item>
+        <item>Irán</item>
+        <item>Noruega</item>
+        <item>Países Bajos</item>
+        <item>Nueva Zelanda</item>
+        <item>Turquía</item>
+        <item>Estados Unidos</item>
+        <item>Sudáfrica</item>
+    </array>
+    <array name="years_array">
+        <item>Random</item>
+        <item>2026</item>
+        <item>2027</item>
+        <item>2028</item>
+        <item>2029</item>
+        <item>2030</item>
+        <item>2031</item>
+        <item>2032</item>
+        <item>2033</item>
+        <item>2034</item>
+        <item>2035</item>
+        <item>2036</item>
+        <item>2037</item>
+        <item>2038</item>
+        <item>2039</item>
+        <item>2040</item>
+    </array>
+</resources>

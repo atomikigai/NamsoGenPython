@@ -1,0 +1,1062 @@
+[
+  {
+    "source": "decompiled/jadx/sources/androidx/webkit/WebSettingsCompat.java",
+    "line": 93,
+    "url_literal": "https://crbug.com/388824130"
+  },
+  {
+    "source": "decompiled/jadx/sources/app/namso_gen/spacehowen/SettingsActivity.java",
+    "line": 330,
+    "url_literal": "https://play.google.com/store/account/subscriptions?package="
+  },
+  {
+    "source": "decompiled/jadx/sources/app/namso_gen/spacehowen/SettingsActivity.java",
+    "line": 564,
+    "url_literal": "https://play.google.com/store/account/subscriptions?package="
+  },
+  {
+    "source": "decompiled/jadx/sources/app/namso_gen/spacehowen/SettingsActivity.java",
+    "line": 695,
+    "url_literal": "https://play.google.com/store/account/subscriptions?package="
+  },
+  {
+    "source": "decompiled/jadx/sources/app/namso_gen/spacehowen/SettingsActivity.java",
+    "line": 826,
+    "url_literal": "https://play.google.com/store/account/subscriptions?package="
+  },
+  {
+    "source": "decompiled/jadx/sources/app/namso_gen/spacehowen/SettingsActivity.java",
+    "line": 957,
+    "url_literal": "https://play.google.com/store/account/subscriptions?package="
+  },
+  {
+    "source": "decompiled/jadx/sources/app/namso_gen/spacehowen/SettingsActivity.java",
+    "line": 1109,
+    "url_literal": "https://play.google.com/store/account/subscriptions?package="
+  },
+  {
+    "source": "decompiled/jadx/sources/app/namso_gen/spacehowen/SettingsActivity.java",
+    "line": 1236,
+    "url_literal": "https://play.google.com/store/account/subscriptions?package="
+  },
+  {
+    "source": "decompiled/jadx/sources/app/namso_gen/spacehowen/SettingsActivity.java",
+    "line": 1361,
+    "url_literal": "https://play.google.com/store/account/subscriptions?package="
+  },
+  {
+    "source": "decompiled/jadx/sources/b6/c.java",
+    "line": 33,
+    "url_literal": "https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 86,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 87,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 88,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 89,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 90,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 91,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 92,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 93,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 94,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 95,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 96,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 97,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/b.java",
+    "line": 98,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/bb/d.java",
+    "line": 51,
+    "url_literal": "https://firebaseinstallations.googleapis.com/v1/"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/bumptech/glide/d.java",
+    "line": 654,
+    "url_literal": "https://twitter.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/bumptech/glide/d.java",
+    "line": 659,
+    "url_literal": "https://accounts.google.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/bumptech/glide/d.java",
+    "line": 664,
+    "url_literal": "https://www.facebook.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/bumptech/glide/d.java",
+    "line": 669,
+    "url_literal": "https://phone.firebase"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/bumptech/glide/d.java",
+    "line": 677,
+    "url_literal": "https://github.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/auth/api/signin/GoogleSignInOptions.java",
+    "line": 76,
+    "url_literal": "https://www.googleapis.com/auth/games_lite"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/auth/api/signin/GoogleSignInOptions.java",
+    "line": 78,
+    "url_literal": "https://www.googleapis.com/auth/games"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzaff.java",
+    "line": 126,
+    "url_literal": "http://ns.adobe.com/xap/1.0/"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzali.java",
+    "line": 543,
+    "url_literal": "http://www.w3.org/ns/ttml#parameter"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 37,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 37,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 725,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 725,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/sdk-core-v40-impl.html"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 779,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 779,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_banner.js"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 780,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_expanded_banner.js"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 780,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_expanded_banner.js"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 781,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_interstitial.js"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 781,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/production/mraid/v3/mraid_app_interstitial.js"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 835,
+    "url_literal": "https://googleads.g.doubleclick.net"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 835,
+    "url_literal": "https://googleads.g.doubleclick.net"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 999,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 999,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/native_ads.html"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1000,
+    "url_literal": "https://imasdk.googleapis.com/admob/sdkloader/native_video.html"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1000,
+    "url_literal": "https://imasdk.googleapis.com/admob/sdkloader/native_video.html"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1053,
+    "url_literal": "https://www.google.com/dfp/linkDevice"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1053,
+    "url_literal": "https://www.google.com/dfp/linkDevice"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1054,
+    "url_literal": "https://www.google.com/dfp/inAppPreview"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1054,
+    "url_literal": "https://www.google.com/dfp/inAppPreview"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1055,
+    "url_literal": "https://www.google.com/dfp/debugSignals"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1055,
+    "url_literal": "https://www.google.com/dfp/debugSignals"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1056,
+    "url_literal": "https://www.google.com/dfp/sendDebugData"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1056,
+    "url_literal": "https://www.google.com/dfp/sendDebugData"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1260,
+    "url_literal": "https://pagead2.googlesyndication.com/pagead/ping?e=2&f=1"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1260,
+    "url_literal": "https://pagead2.googlesyndication.com/pagead/ping?e=2&f=1"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1271,
+    "url_literal": "https://admob-gmats.uc.r.appspot.com/"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbcn.java",
+    "line": 1271,
+    "url_literal": "https://admob-gmats.uc.r.appspot.com/"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbdo.java",
+    "line": 28,
+    "url_literal": "http://www.example.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbeh.java",
+    "line": 10,
+    "url_literal": "https://csi.gstatic.com/csi"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbex.java",
+    "line": 6,
+    "url_literal": "https://googleads.g.doubleclick.net/mads/static/mad/sdk/native/sdk-core-v40-loader.html"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzbwa.java",
+    "line": 71,
+    "url_literal": "http://www.google.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzchw.java",
+    "line": 16,
+    "url_literal": "https://play.google.com/d"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzcox.java",
+    "line": 85,
+    "url_literal": "https://googlemobileadssdk.page.link/admob-interstitial-policies"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzdfj.java",
+    "line": 85,
+    "url_literal": "https://googlemobileadssdk.page.link/admob-interstitial-policies"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzdor.java",
+    "line": 105,
+    "url_literal": "https://googlemobileadssdk.page.link/admob-interstitial-policies"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzdvk.java",
+    "line": 418,
+    "url_literal": "https://developers.google.com/admob/android/test-ads#enable_test_devices"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzewk.java",
+    "line": 73,
+    "url_literal": "http://www.google.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzewk.java",
+    "line": 112,
+    "url_literal": "http://www.example.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzfgq.java",
+    "line": 113,
+    "url_literal": "https://developers.google.com/admob/android/test-ads#enable_test_devices"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzggf.java",
+    "line": 88,
+    "url_literal": "https://developers.google.com/tink/faq/registration_errors"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzgt.java",
+    "line": 9,
+    "url_literal": "https://developer.android.com/guide/topics/media/issues/cleartext-not-permitted"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzhb.java",
+    "line": 72,
+    "url_literal": "http://g.co/dev/packagevisibility."
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzhgq.java",
+    "line": 33,
+    "url_literal": "http://www.example.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/ads/zzjv.java",
+    "line": 1918,
+    "url_literal": "https://developer.android.com/guide/topics/media/issues/player-accessed-on-wrong-thread"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/consent_sdk/zzu.java",
+    "line": 54,
+    "url_literal": "https://fundingchoicesmessages.google.com/a/consent"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/measurement/zzef.java",
+    "line": 77,
+    "url_literal": "https://firebase.google.com/docs/analytics"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/measurement/zzol.java",
+    "line": 91,
+    "url_literal": "https://app-measurement.com/a"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/p002firebaseauthapi/zzafx.java",
+    "line": 111,
+    "url_literal": "http://["
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/p002firebaseauthapi/zzagb.java",
+    "line": 17,
+    "url_literal": "http://localhost"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/gms/internal/p002firebaseauthapi/zzaic.java",
+    "line": 130,
+    "url_literal": "http://localhost"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 106,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 109,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 112,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 115,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 118,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 121,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 121,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 121,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 121,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 124,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 178,
+    "url_literal": "http://schemas.android.com/apk/res-auto"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 178,
+    "url_literal": "http://schemas.android.com/apk/res-auto"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 187,
+    "url_literal": "http://schemas.android.com/apk/res-auto"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 187,
+    "url_literal": "http://schemas.android.com/apk/res-auto"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 195,
+    "url_literal": "http://schemas.android.com/apk/res-auto"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/chip/Chip.java",
+    "line": 195,
+    "url_literal": "http://schemas.android.com/apk/res-auto"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/datepicker/n.java",
+    "line": 108,
+    "url_literal": "https://bins.antipublic.cc/bins/"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/datepicker/n.java",
+    "line": 386,
+    "url_literal": "https://api.ipbase.com/v1/json/"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/material/datepicker/n.java",
+    "line": 494,
+    "url_literal": "https://api.spacehowen.com/bins-extras/search_bin.php?bin="
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/play/core/integrity/model/a.java",
+    "line": 67,
+    "url_literal": "https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/IntegrityErrorCode.html#"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/play/core/integrity/model/b.java",
+    "line": 59,
+    "url_literal": "https://developer.android.com/google/play/integrity/reference/com/google/android/play/core/integrity/model/StandardIntegrityErrorCode.html#"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzab.java",
+    "line": 13,
+    "url_literal": "https://www.recaptcha.net/recaptcha/api3"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzab.java",
+    "line": 14,
+    "url_literal": "https://www.recaptcha.net/recaptcha/api3"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzab.java",
+    "line": 15,
+    "url_literal": "https://www.recaptcha.net/recaptcha/api3"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzab.java",
+    "line": 16,
+    "url_literal": "https://www.recaptcha.net/recaptcha/api3"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzab.java",
+    "line": 17,
+    "url_literal": "https://www.recaptcha.net/recaptcha/api3"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzab.java",
+    "line": 37,
+    "url_literal": "https://www.recaptcha.net/recaptcha/api3"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/android/recaptcha/internal/zzah.java",
+    "line": 51,
+    "url_literal": "https://www.recaptcha.net/recaptcha/api3"
+  },
+  {
+    "source": "decompiled/jadx/sources/com/google/firebase/remoteconfig/internal/ConfigFetchHttpClient.java",
+    "line": 125,
+    "url_literal": "https://firebaseremoteconfig.googleapis.com/v1/projects/"
+  },
+  {
+    "source": "decompiled/jadx/sources/e5/d.java",
+    "line": 328,
+    "url_literal": "https://api11.scamalytics.com/"
+  },
+  {
+    "source": "decompiled/jadx/sources/e6/u2.java",
+    "line": 39,
+    "url_literal": "https://googlemobileadssdk.page.link/admob-android-update-manifest"
+  },
+  {
+    "source": "decompiled/jadx/sources/e6/u2.java",
+    "line": 39,
+    "url_literal": "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  },
+  {
+    "source": "decompiled/jadx/sources/e6/u2.java",
+    "line": 47,
+    "url_literal": "https://googlemobileadssdk.page.link/admob-android-update-manifest"
+  },
+  {
+    "source": "decompiled/jadx/sources/e6/u2.java",
+    "line": 47,
+    "url_literal": "https://googlemobileadssdk.page.link/ad-manager-android-update-manifest."
+  },
+  {
+    "source": "decompiled/jadx/sources/e7/c.java",
+    "line": 34,
+    "url_literal": "https://accounts.google.com/o/oauth2/revoke?token="
+  },
+  {
+    "source": "decompiled/jadx/sources/g0/b.java",
+    "line": 48,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/g0/b.java",
+    "line": 72,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/gb/k.java",
+    "line": 134,
+    "url_literal": "https://www.google.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/h1/g.java",
+    "line": 146,
+    "url_literal": "http://ns.adobe.com/xap/1.0/\\u0000"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/c.java",
+    "line": 83,
+    "url_literal": "https://api.catchmail.io/api/v1/message/"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/c3.java",
+    "line": 203,
+    "url_literal": "https://api.catchmail.io/api/v1/mailbox?address="
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/d1.java",
+    "line": 186,
+    "url_literal": "https://proxylist.geonode.com/api/proxy-list?country="
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/d1.java",
+    "line": 391,
+    "url_literal": "https://api.proxyscrape.com/v2/?request=displayproxies&protocol=http,socks4,socks5&timeout=10000&country="
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/e1.java",
+    "line": 122,
+    "url_literal": "https://api.spacehowen.com/cards-checker"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/e1.java",
+    "line": 945,
+    "url_literal": "https://t.me/spacehowen"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/e1.java",
+    "line": 1176,
+    "url_literal": "https://t.me/spacehowen"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/e1.java",
+    "line": 1407,
+    "url_literal": "https://t.me/spacehowen"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/e1.java",
+    "line": 1644,
+    "url_literal": "https://t.me/spacehowen"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/e1.java",
+    "line": 1875,
+    "url_literal": "https://t.me/spacehowen"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/e1.java",
+    "line": 2106,
+    "url_literal": "https://t.me/spacehowen"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/g2.java",
+    "line": 85,
+    "url_literal": "https://flagcdn.com/h40/"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/h.java",
+    "line": 145,
+    "url_literal": "https://issuetracker.google.com/issues/new?component=907884&template=1466542"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/j0.java",
+    "line": 87,
+    "url_literal": "https://bins.antipublic.cc/bins/"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/k1.java",
+    "line": 37,
+    "url_literal": "https://play.google.com/store/apps/details?id=app.namso_gen.spacehowen"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/k1.java",
+    "line": 54,
+    "url_literal": "https://play.google.com/store/apps/details?id=app.namso_gen.spacehowen"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/r2.java",
+    "line": 77,
+    "url_literal": "https://api.spacehowen.com/users-proxys/get_proxy.php"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/u2.java",
+    "line": 119,
+    "url_literal": "https://link.spacehowen.com/api/shorten"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/u2.java",
+    "line": 215,
+    "url_literal": "https://link.spacehowen.com/api/shorten"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/v.java",
+    "line": 142,
+    "url_literal": "https://api.spacehowen.com/bins-extras/save_bin.php"
+  },
+  {
+    "source": "decompiled/jadx/sources/h3/z.java",
+    "line": 38,
+    "url_literal": "https://raw.githubusercontent.com/spacehowen/world-data-json/refs/heads/main/world_data.json"
+  },
+  {
+    "source": "decompiled/jadx/sources/h6/h.java",
+    "line": 33,
+    "url_literal": "https://support.google.com/dfp_premium/answer/7160685#push"
+  },
+  {
+    "source": "decompiled/jadx/sources/jc/l.java",
+    "line": 14,
+    "url_literal": "https://youtrack.jetbrains.com/issue/KT-55980"
+  },
+  {
+    "source": "decompiled/jadx/sources/jc/m.java",
+    "line": 14,
+    "url_literal": "https://youtrack.jetbrains.com/issue/KT-55980"
+  },
+  {
+    "source": "decompiled/jadx/sources/k3/e.java",
+    "line": 65,
+    "url_literal": "https://api.spacehowen.com/users-coins/coins.php"
+  },
+  {
+    "source": "decompiled/jadx/sources/k3/e.java",
+    "line": 111,
+    "url_literal": "https://api.spacehowen.com/users-coins/coins.php"
+  },
+  {
+    "source": "decompiled/jadx/sources/k3/e.java",
+    "line": 152,
+    "url_literal": "https://api.spacehowen.com/users-coins/coins.php"
+  },
+  {
+    "source": "decompiled/jadx/sources/k3/e.java",
+    "line": 211,
+    "url_literal": "https://api.spacehowen.com/verify/verify.php"
+  },
+  {
+    "source": "decompiled/jadx/sources/k3/f.java",
+    "line": 121,
+    "url_literal": "https://api.spacehowen.com/fcm/tokens.php?action="
+  },
+  {
+    "source": "decompiled/jadx/sources/k3/f.java",
+    "line": 152,
+    "url_literal": "https://api.spacehowen.com/fcm/track.php?action=received"
+  },
+  {
+    "source": "decompiled/jadx/sources/k3/f.java",
+    "line": 184,
+    "url_literal": "https://api.spacehowen.com/users-proxys/buy.php"
+  },
+  {
+    "source": "decompiled/jadx/sources/k3/f.java",
+    "line": 255,
+    "url_literal": "https://api.spacehowen.com/users-proxys/get_proxy.php"
+  },
+  {
+    "source": "decompiled/jadx/sources/k3/g.java",
+    "line": 115,
+    "url_literal": "https://api.spacehowen.com/users-proxys/countries.php"
+  },
+  {
+    "source": "decompiled/jadx/sources/kb/m.java",
+    "line": 130,
+    "url_literal": "https://firebaseremoteconfigrealtime.googleapis.com/v1/projects/"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 479,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 504,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 509,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 514,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 530,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 570,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 581,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 585,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 595,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 606,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 612,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 617,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 622,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 627,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 632,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 637,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 654,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 683,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 688,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 693,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n2/o.java",
+    "line": 698,
+    "url_literal": "http://schemas.android.com/apk/res/android"
+  },
+  {
+    "source": "decompiled/jadx/sources/n3/d.java",
+    "line": 41,
+    "url_literal": "https://flagcdn.com/h40/"
+  },
+  {
+    "source": "decompiled/jadx/sources/n3/i.java",
+    "line": 71,
+    "url_literal": "https://www.gstatic.com/generate_204"
+  },
+  {
+    "source": "decompiled/jadx/sources/n3/i.java",
+    "line": 71,
+    "url_literal": "https://example.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/n3/i.java",
+    "line": 72,
+    "url_literal": "https://www.cloudflare.com/cdn-cgi/trace"
+  },
+  {
+    "source": "decompiled/jadx/sources/n3/i.java",
+    "line": 72,
+    "url_literal": "https://one.one.one.one/cdn-cgi/trace"
+  },
+  {
+    "source": "decompiled/jadx/sources/n3/i.java",
+    "line": 587,
+    "url_literal": "http://localhost:"
+  },
+  {
+    "source": "decompiled/jadx/sources/n3/i.java",
+    "line": 638,
+    "url_literal": "http://localhost:"
+  },
+  {
+    "source": "decompiled/jadx/sources/r4/e.java",
+    "line": 54,
+    "url_literal": "https://github.com/firebase/FirebaseUI-Android/releases/tag/6.2.0"
+  },
+  {
+    "source": "decompiled/jadx/sources/r4/e.java",
+    "line": 57,
+    "url_literal": "https://github.com/firebase/FirebaseUI-Android/releases/tag/6.2.0"
+  },
+  {
+    "source": "decompiled/jadx/sources/s5/e.java",
+    "line": 314,
+    "url_literal": "https://firebase-settings.crashlytics.com/spi/v2/platforms/android/gmp/"
+  },
+  {
+    "source": "decompiled/jadx/sources/s5/e.java",
+    "line": 440,
+    "url_literal": "https://firebase.google.com/docs/crashlytics/get-started?platform=android#add-plugin"
+  },
+  {
+    "source": "decompiled/jadx/sources/s5/e.java",
+    "line": 450,
+    "url_literal": "https://firebase.google.com/docs/crashlytics/get-started?platform=android#add-plugin"
+  },
+  {
+    "source": "decompiled/jadx/sources/s5/e.java",
+    "line": 561,
+    "url_literal": "https://firebase-settings.crashlytics.com/spi/v2/platforms/android/gmp/"
+  },
+  {
+    "source": "decompiled/jadx/sources/s5/e.java",
+    "line": 694,
+    "url_literal": "https://firebase.google.com/docs/crashlytics/get-started?platform=android#add-plugin"
+  },
+  {
+    "source": "decompiled/jadx/sources/s5/e.java",
+    "line": 704,
+    "url_literal": "https://firebase.google.com/docs/crashlytics/get-started?platform=android#add-plugin"
+  },
+  {
+    "source": "decompiled/jadx/sources/t4/n.java",
+    "line": 43,
+    "url_literal": "https://github.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/t4/n.java",
+    "line": 46,
+    "url_literal": "https://phone.firebase"
+  },
+  {
+    "source": "decompiled/jadx/sources/t4/n.java",
+    "line": 49,
+    "url_literal": "https://accounts.google.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/t4/n.java",
+    "line": 52,
+    "url_literal": "https://twitter.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/t4/n.java",
+    "line": 55,
+    "url_literal": "https://www.facebook.com"
+  },
+  {
+    "source": "decompiled/jadx/sources/y9/j.java",
+    "line": 574,
+    "url_literal": "https://firebase.google.com/support/guides/disable-analytics"
+  },
+  {
+    "source": "decompiled/jadx/sources/y9/j.java",
+    "line": 1312,
+    "url_literal": "https://firebase.google.com/support/guides/disable-analytics"
+  },
+  {
+    "source": "decompiled/jadx/sources/y9/j.java",
+    "line": 2045,
+    "url_literal": "https://firebase.google.com/support/guides/disable-analytics"
+  },
+  {
+    "source": "decompiled/jadx/sources/z7/d3.java",
+    "line": 385,
+    "url_literal": "https://goo.gl/NAOOOI."
+  },
+  {
+    "source": "decompiled/jadx/sources/z7/d3.java",
+    "line": 402,
+    "url_literal": "https://goo.gl/NAOOOI"
+  },
+  {
+    "source": "decompiled/jadx/sources/z7/p1.java",
+    "line": 126,
+    "url_literal": "https://www.googleadservices.com/pagead/conversion/app/deeplink?id_type=adid&sdk_version="
+  },
+  {
+    "source": "decompiled/jadx/sources/z7/t1.java",
+    "line": 87,
+    "url_literal": "https://google.com/search?"
+  },
+  {
+    "source": "decompiled/jadx/sources/z7/z.java",
+    "line": 208,
+    "url_literal": "https://app-measurement.com/a"
+  },
+  {
+    "source": "decompiled/jadx/sources/z7/z.java",
+    "line": 208,
+    "url_literal": "https://app-measurement.com/a"
+  },
+  {
+    "source": "decompiled/jadx/sources/za/c.java",
+    "line": 265,
+    "url_literal": "https://firebase.google.com/support/privacy/init-options."
+  },
+  {
+    "source": "decompiled/jadx/sources/za/c.java",
+    "line": 267,
+    "url_literal": "https://firebase.google.com/support/privacy/init-options."
+  },
+  {
+    "source": "decompiled/jadx/sources/za/c.java",
+    "line": 269,
+    "url_literal": "https://firebase.google.com/support/privacy/init-options."
+  },
+  {
+    "source": "decompiled/jadx/sources/za/c.java",
+    "line": 273,
+    "url_literal": "https://firebase.google.com/support/privacy/init-options."
+  },
+  {
+    "source": "decompiled/jadx/sources/za/c.java",
+    "line": 275,
+    "url_literal": "https://firebase.google.com/support/privacy/init-options."
+  }
+]

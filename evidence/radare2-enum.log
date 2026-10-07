@@ -1,0 +1,94 @@
+Radare2 enum recovery evidence
+$ r2 -v
+radare2 6.2.2 +37863 abi:142 @ linux-x86_64
+birth: git.6.2.2 2026-10-03__09:10:30
+commit: ad27058877024389292fddf12e1db6e13824ba34
+options: gpl -O1 cs:5 cl:2 meson
+
+Input: apps/NamsoGenPython/artifacts/apk/classes.dex
+SHA-256: 4ab3eb892fb05ca83715c5b008ef09cbc3a0ed5d6ae3a11a3c16ae8e5f22319d
+
+$ r2 -q -c 'pd 60 @ 0x00594078; pd 4 @ 0x00594154; q' apps/NamsoGenPython/artifacts/apk/classes.dex
+            ;-- method.static.constructor.Ln3_a.Ln3_a.method._clinit___V:
+            ;-- Ln3/a.method.<clinit>()V:
+            0x00594078      22009a2f       new-instance v0, Ln3/a;     ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:1 ; 0x343cc ; "-O"
+            0x0059407c      1201           const/4 v1, 0               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:5
+            0x0059407e      13020f00       const/16 v2, 0x0f           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:7
+            0x00594082      1a03b90a       const-string v3, 0x678d6c   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:11
+            0x00594086      1244           const/4 v4, 4               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:15
+            0x00594088      70548ae81032   invoke-direct {v0, v1, v2, v3, v4}, Ln3/a.<init>(IILjava/lang/String;I)V ; 0xe88a ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:17
+            0x0059408e      69009f77       sput-object v0, Ln3/a;->c Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:23 ; field.class.Ln3_a.var.Ln3_a.sfield_c:Ln3_a_
+                                                                       ; [0xa1ea4:4]=0x2f9a2f9a
+            0x00594092      22019a2f       new-instance v1, Ln3/a;     ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:27 ; 0x343cc ; "-O"
+            0x00594096      1212           const/4 v2, 1               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:31
+            0x00594098      13031000       const/16 v3, 0x10           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:33
+            0x0059409c      1a055264       const-string v5, 0x7426f0   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:37
+            0x005940a0      1236           const/4 v6, 3               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:41
+            0x005940a2      70568ae82153   invoke-direct {v1, v2, v3, v5, v6}, Ln3/a.<init>(IILjava/lang/String;I)V ; 0xe88a ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:43
+            0x005940a8      6901a077       sput-object v1, Ln3/a;->d Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:49 ; field.class.Ln3_a.var.Ln3_a.sfield_d:Ln3_a_
+                                                                       ; [0xa1eac:4]=0x2f9a2f9a
+            0x005940ac      22029a2f       new-instance v2, Ln3/a;     ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:53 ; 0x343cc ; "-O"
+            0x005940b0      1a055055       const-string v5, str.MASTERCARD ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:57 ; 0x721ffb ; "MASTERCARD"
+            0x005940b4      1227           const/4 v7, 2               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:61
+            0x005940b6      70568ae87253   invoke-direct {v2, v7, v3, v5, v6}, Ln3/a.<init>(IILjava/lang/String;I)V ; 0xe88a ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:63
+            0x005940bc      6902a177       sput-object v2, Ln3/a;->e Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:69 ; field.class.Ln3_a.var.Ln3_a.sfield_e:Ln3_a_
+                                                                       ; [0xa1eb4:4]=0x2f9a2f9a
+            0x005940c0      0135           move v5, v3                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:73
+            0x005940c2      22039a2f       new-instance v3, Ln3/a;     ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:75 ; 0x343cc ; "-O"
+            0x005940c6      1a076012       const-string v7, str.DISCOVER ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:79 ; 0x68b20b
+            0x005940ca      70568ae86375   invoke-direct {v3, v6, v5, v7, v6}, Ln3/a.<init>(IILjava/lang/String;I)V ; 0xe88a ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:83
+            0x005940d0      6903a277       sput-object v3, Ln3/a;->f Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:89 ; field.class.Ln3_a.var.Ln3_a.sfield_f:Ln3_a_
+                                                                       ; [0xa1ebc:4]=0x2f9a2f9a
+            0x005940d4      0147           move v7, v4                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:93
+            0x005940d6      22049a2f       new-instance v4, Ln3/a;     ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:95 ; 0x343cc ; "-O"
+            0x005940da      1a08611d       const-string v8, 0x6a182d   ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:99
+            0x005940de      70568ae87485   invoke-direct {v4, v7, v5, v8, v6}, Ln3/a.<init>(IILjava/lang/String;I)V ; 0xe88a ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:103
+            0x005940e4      6904a377       sput-object v4, Ln3/a;->r Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:109 ; field.class.Ln3_a.var.Ln3_a.sfield_r:Ln3_a_
+                                                                       ; [0xa1ec4:4]=0x2f9a2f9a
+            0x005940e8      0157           move v7, v5                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:113
+            0x005940ea      22059a2f       new-instance v5, Ln3/a;     ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:115 ; 0x343cc ; "-O"
+            0x005940ee      1258           const/4 v8, 5               ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:119
+            0x005940f0      13090e00       const/16 v9, 0x0e           ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:121
+            0x005940f4      1a0a5512       const-string v10, str.DINERS ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:125 ; 0x68b159
+            0x005940f8      70568ae885a9   invoke-direct {v5, v8, v9, v10, v6}, Ln3/a.<init>(IILjava/lang/String;I)V ; 0xe88a ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:129
+            0x005940fe      6905a477       sput-object v5, Ln3/a;->s Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:135 ; field.class.Ln3_a.var.Ln3_a.sfield_s:Ln3_a_
+                                                                       ; [0xa1ecc:4]=0x2f9a2f9a
+            0x00594102      0168           move v8, v6                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:139
+            0x00594104      22069a2f       new-instance v6, Ln3/a;     ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:141 ; 0x343cc ; "-O"
+            0x00594108      1a097f61       const-string v9, str.UNIONPAY ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:145 ; 0x73d6dd
+            0x0059410c      126a           const/4 v10, 6              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:149
+            0x0059410e      70588ae8a697   invoke-direct {v6, v10, v7, v9, v8}, Ln3/a.<init>(IILjava/lang/String;I)V ; 0xe88a ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:151
+            0x00594114      6906a577       sput-object v6, Ln3/a;->t Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:157 ; field.class.Ln3_a.var.Ln3_a.sfield_t:Ln3_a_
+                                                                       ; [0xa1ed4:4]=0x2f9a2f9a
+            0x00594118      0179           move v9, v7                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:161
+            0x0059411a      22079a2f       new-instance v7, Ln3/a;     ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:163 ; 0x343cc ; "-O"
+            0x0059411e      1a0a8061       const-string v10, str.UNKNOWN ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:167 ; 0x73d6e7
+            0x00594122      127b           const/4 v11, 7              ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:171
+            0x00594124      70588ae8b7a9   invoke-direct {v7, v11, v9, v10, v8}, Ln3/a.<init>(IILjava/lang/String;I)V ; 0xe88a ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:173
+            0x0059412a      6907a677       sput-object v7, Ln3/a;->u Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:179 ; field.class.Ln3_a.var.Ln3_a.sfield_u:Ln3_a_
+                                                                       ; [0xa1edc:4]=0x2f9a2f9a
+            0x0059412e      250814370000   filled-new-array/range {v0..v7}, [Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:183 ; 0x361b4
+            0x00594134      0c00           move-result-object v0       ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:189
+            0x00594136      6900a777       sput-object v0, Ln3/a;->v [Ln3/a; ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:191 ; field.class.Ln3_a.var.Ln3_a.sfield_v:_Ln3_a_
+                                                                       ; [0xa1ee4:4]=0x37142f9a
+            0x0059413a      711078d00000   invoke-static {v0}, Lfa/c1.s([Ljava/lang/Enum;)Lbc/b; ; 0xd078
+            0x00594140      0e00           return-void
+            0x00594142      0000           nop
+            0x00594144      05000500       move-wide/from16 v0, v5
+            0x00594148      030000002822   move/16 v0, v8744
+            0x0059414e      64000800       sget-byte v0, La2/d;->b Ljava/lang/Object; ; field.class.La2_d.var.La2_d.ifield_b:Ljava_lang_Object_
+                                                                       ; [0x661ec:1]=11
+            0x00594152      0000           nop
+            ;-- method.public.constructor.Ln3_a.Ln3_a.method._init__IILjava_lang_String_I_V:
+            ;-- Ln3/a.method.<init>(IILjava/lang/String;I)V:
+            0x00594154      703034d93001   invoke-direct {v0, v3, v1}, Ljava/lang/Enum.<init>(Ljava/lang/String;I)V ; 0xd934 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:1
+            0x0059415a      59029d77       iput v2, v0, Ln3/a;->a I    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:7 ; field.class.Ln3_a.var.Ln3_a.ifield_a:I
+                                                                       ; [0xa1e94:4]=0x42f9a
+            ;-- method.public.constructor.Ln3_a.Ln3_a.method._init__IILjava_lang_String_I_V:
+            ;-- Ln3/a.method.<init>(IILjava/lang/String;I)V:
+            0x00594154      703034d93001   invoke-direct {v0, v3, v1}, Ljava/lang/Enum.<init>(Ljava/lang/String;I)V ; 0xd934 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:1
+            0x0059415a      59029d77       iput v2, v0, Ln3/a;->a I    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:7 ; field.class.Ln3_a.var.Ln3_a.ifield_a:I
+                                                                       ; [0xa1e94:4]=0x42f9a
+            0x0059415e      59049e77       iput v4, v0, Ln3/a;->b I    ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:11 ; field.class.Ln3_a.var.Ln3_a.ifield_b:I
+                                                                       ; [0xa1e9c:4]=0x42f9a
+            0x00594162      0e00           return-void                 ; r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457:15

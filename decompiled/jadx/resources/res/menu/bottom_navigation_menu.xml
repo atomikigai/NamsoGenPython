@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/icon_gen_cc"
+        android:id="@+id/navigation_home"
+        android:title="@string/nav_generate_cc"
+        app:cnb_iconColor="@color/background_bar_color"/>
+    <item
+        android:icon="@drawable/browser"
+        android:id="@+id/navigation_browser"
+        android:title="@string/nav_browser"
+        app:cnb_iconColor="@color/background_bar_color"/>
+    <item
+        android:icon="@drawable/tools2"
+        android:id="@+id/navigation_dashboard"
+        android:title="@string/nav_tools"
+        app:cnb_iconColor="@color/background_bar_color"/>
+    <item
+        android:icon="@drawable/ic_notes"
+        android:id="@+id/navigation_notes"
+        android:title="@string/nav_notes"
+        app:cnb_iconColor="@color/background_bar_color"/>
+    <item
+        android:icon="@drawable/temp_mail_icon"
+        android:id="@+id/navigation_temp_mail"
+        android:title="@string/nav_temp_mail"
+        app:cnb_iconColor="@color/background_bar_color"/>
+</menu>

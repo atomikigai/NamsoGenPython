@@ -1,0 +1,14 @@
+package com.google.android.gms.internal.ads;
+
+import java.util.Set;
+
+/* JADX INFO: compiled from: r8-map-id-90bdb1e633fc7deccf1f2262b96244d51f1613c31a781dbcb0c26e7e72a99457 */
+/* JADX INFO: loaded from: classes.dex */
+abstract class zzgdj {
+    public /* synthetic */ zzgdj(zzgdm zzgdmVar) {
+    }
+
+    public abstract int zza(zzgdn zzgdnVar);
+
+    public abstract void zzb(zzgdn zzgdnVar, Set set, Set set2);
+}
